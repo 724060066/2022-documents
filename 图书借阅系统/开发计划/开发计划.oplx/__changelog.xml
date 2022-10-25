@@ -1,0 +1,2598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="陈锐" date="2022-10-24T01:25:55.061Z" timestamp="2022-10-24T01:25:55.061Z">
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="图书借阅系统" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t3" to="t1" to-position="0" resolved="yes">
+      <change idref="t3" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t4" to="t1" to-position="1" resolved="yes">
+      <change idref="t4" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t4" attribute="internalPrerequisitesString" type="string" from="" to="3FS"/>
+      <change idref="t4" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t5" to="t1" to-position="2" resolved="yes">
+      <change idref="t5" attribute="internalPrerequisitesString" type="string" from="" to="4FS"/>
+      <change idref="t5" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t5" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t5" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t10" to="t1" to-position="3" resolved="yes">
+      <change idref="t10" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t10" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t10" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t15" to="t1" to-position="4" resolved="yes">
+      <change idref="t15" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t15" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t15" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t20" to="t1" to-position="5" resolved="yes">
+      <change idref="t20" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t20" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t20" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t23" to="t1" to-position="6" resolved="yes">
+      <change idref="t23" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t23" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t23" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t6" to="t5" to-position="0" resolved="yes">
+      <change idref="t6" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t7" to="t5" to-position="1" resolved="yes">
+      <change idref="t7" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t7" attribute="internalPrerequisitesString" type="string" from="" to="6FS"/>
+      <change idref="t7" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t8" to="t5" to-position="2" resolved="yes">
+      <change idref="t8" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t8" attribute="internalPrerequisitesString" type="string" from="" to="7FS"/>
+      <change idref="t8" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t9" to="t5" to-position="3" resolved="yes">
+      <change idref="t9" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t9" attribute="internalPrerequisitesString" type="string" from="" to="8FS"/>
+      <change idref="t9" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t11" to="t10" to-position="0" resolved="yes">
+      <change idref="t11" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t11" attribute="internalPrerequisitesString" type="string" from="" to="9FS"/>
+      <change idref="t11" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t12" to="t10" to-position="1" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t12" attribute="internalPrerequisitesString" type="string" from="" to="11FS"/>
+      <change idref="t12" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t13" to="t10" to-position="2" resolved="yes">
+      <change idref="t13" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t13" attribute="internalPrerequisitesString" type="string" from="" to="12FS"/>
+      <change idref="t13" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t14" to="t10" to-position="3" resolved="yes">
+      <change idref="t14" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t14" attribute="internalPrerequisitesString" type="string" from="" to="13FS"/>
+      <change idref="t14" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t16" to="t15" to-position="0" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t16" attribute="internalPrerequisitesString" type="string" from="" to="14FS"/>
+      <change idref="t16" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t17" to="t15" to-position="1" resolved="yes">
+      <change idref="t17" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t17" attribute="internalPrerequisitesString" type="string" from="" to="16FS"/>
+      <change idref="t17" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t21" to="t20" to-position="0" resolved="yes">
+      <change idref="t21" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t21" attribute="internalPrerequisitesString" type="string" from="" to="17FS"/>
+      <change idref="t21" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t22" to="t20" to-position="1" resolved="yes">
+      <change idref="t22" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t22" attribute="internalPrerequisitesString" type="string" from="" to="21FS"/>
+      <change idref="t22" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t24" to="t23" to-position="0" resolved="yes">
+      <change idref="t24" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t24" attribute="internalPrerequisitesString" type="string" from="" to="22FS"/>
+      <change idref="t24" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t25" to="t23" to-position="1" resolved="yes">
+      <change idref="t25" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t25" attribute="internalPrerequisitesString" type="string" from="" to="24FS"/>
+      <change idref="t25" attribute="title" type="string" to="还书"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-24T01:41:53.895Z" timestamp="2022-10-24T01:41:53.895Z">
+    <change idref="t31" to="t1" to-position="0" resolved="yes">
+      <change idref="t31" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t31" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t31" attribute="title" type="string" to="姚恩泽"/>
+    </change>
+    <change idref="t53" to="t1" to-position="1" resolved="yes">
+      <change idref="t53" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t53" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t53" attribute="title" type="string" to="宋红允"/>
+    </change>
+    <change idref="t75" to="t1" to-position="2" resolved="yes">
+      <change idref="t75" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t75" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t75" attribute="title" type="string" to="胡海菲"/>
+    </change>
+    <change idref="t97" to="t1" to-position="3" resolved="yes">
+      <change idref="t97" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t97" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t97" attribute="title" type="string" to="沈金宇"/>
+    </change>
+    <change idref="t119" to="t1" to-position="4" resolved="yes">
+      <change idref="t119" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t119" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t119" attribute="title" type="string" to="沈彤"/>
+    </change>
+    <change idref="t141" to="t1" to-position="5" resolved="yes">
+      <change idref="t141" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t141" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t141" attribute="title" type="string" to="杨景惠"/>
+    </change>
+    <change idref="t164" to="t1" to-position="6" resolved="yes">
+      <change idref="t164" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t164" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t164" attribute="title" type="string" to="薛梦圆"/>
+    </change>
+    <change idref="t187" to="t1" to-position="7" resolved="yes">
+      <change idref="t187" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t187" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t187" attribute="title" type="string" to="腾广元"/>
+    </change>
+    <change idref="t209" to="t1" to-position="8" resolved="yes">
+      <change idref="t209" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t209" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t209" attribute="title" type="string" to="刘璇"/>
+    </change>
+    <change idref="t231" to="t1" to-position="9" resolved="yes">
+      <change idref="t231" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t231" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t231" attribute="title" type="string" to="牛延旭"/>
+    </change>
+    <change idref="t253" to="t1" to-position="10" resolved="yes">
+      <change idref="t253" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t253" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t253" attribute="title" type="string" to="刘博浩"/>
+    </change>
+    <change idref="t275" to="t1" to-position="11" resolved="yes">
+      <change idref="t275" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t275" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t275" attribute="title" type="string" to="胡炳烽"/>
+    </change>
+    <change idref="t297" to="t1" to-position="12" resolved="yes">
+      <change idref="t297" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t297" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t297" attribute="title" type="string" to="李阔"/>
+    </change>
+    <change idref="t319" to="t1" to-position="13" resolved="yes">
+      <change idref="t319" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t319" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t319" attribute="title" type="string" to="杨云瑞"/>
+    </change>
+    <change idref="t341" to="t1" to-position="14" resolved="yes">
+      <change idref="t341" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t341" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t341" attribute="title" type="string" to="刘泽宇"/>
+    </change>
+    <change idref="t363" to="t1" to-position="15" resolved="yes">
+      <change idref="t363" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t363" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t363" attribute="title" type="string" to="杨嘉琪"/>
+    </change>
+    <change idref="t385" to="t1" to-position="16" resolved="yes">
+      <change idref="t385" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t385" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t385" attribute="title" type="string" to="施志昊"/>
+    </change>
+    <change idref="t407" to="t1" to-position="17" resolved="yes">
+      <change idref="t407" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t407" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t407" attribute="title" type="string" to="王鹏智"/>
+    </change>
+    <change idref="t429" to="t1" to-position="18" resolved="yes">
+      <change idref="t429" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t429" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t429" attribute="title" type="string" to="卢梦迪"/>
+    </change>
+    <change idref="t451" to="t1" to-position="19" resolved="yes">
+      <change idref="t451" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t451" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t451" attribute="title" type="string" to="高尚伟"/>
+    </change>
+    <change idref="t473" to="t1" to-position="20" resolved="yes">
+      <change idref="t473" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t473" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t473" attribute="title" type="string" to="崔泽铭"/>
+    </change>
+    <change idref="t495" to="t1" to-position="21" resolved="yes">
+      <change idref="t495" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t495" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t495" attribute="title" type="string" to="刘一帆"/>
+    </change>
+    <change idref="t474" to="t495" to-position="0" resolved="yes">
+      <change idref="t474" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t475" to="t495" to-position="1" resolved="yes">
+      <change idref="t475" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t475" attribute="internalPrerequisitesString" type="string" from="" to="474FS"/>
+      <change idref="t475" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t476" to="t495" to-position="2" resolved="yes">
+      <change idref="t476" attribute="internalPrerequisitesString" type="string" from="" to="475FS"/>
+      <change idref="t476" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t476" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t476" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t481" to="t495" to-position="3" resolved="yes">
+      <change idref="t481" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t481" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t481" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t486" to="t495" to-position="4" resolved="yes">
+      <change idref="t486" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t486" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t486" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t489" to="t495" to-position="5" resolved="yes">
+      <change idref="t489" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t489" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t489" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t492" to="t495" to-position="6" resolved="yes">
+      <change idref="t492" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t492" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t492" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t3" from="t1" from-position="0" to="t31" to-position="0" resolved="yes"/>
+    <change idref="t4" from="t1" from-position="1" to="t31" to-position="1" resolved="yes"/>
+    <change idref="t5" from="t1" from-position="2" to="t31" to-position="2" resolved="yes"/>
+    <change idref="t10" from="t1" from-position="3" to="t31" to-position="3" resolved="yes"/>
+    <change idref="t15" from="t1" from-position="4" to="t31" to-position="4" resolved="yes"/>
+    <change idref="t20" from="t1" from-position="5" to="t31" to-position="5" resolved="yes"/>
+    <change idref="t23" from="t1" from-position="6" to="t31" to-position="6" resolved="yes"/>
+    <change idref="t35" to="t34" to-position="0" resolved="yes">
+      <change idref="t35" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t36" to="t34" to-position="1" resolved="yes">
+      <change idref="t36" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t36" attribute="internalPrerequisitesString" type="string" from="" to="35FS"/>
+      <change idref="t36" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t37" to="t34" to-position="2" resolved="yes">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" from="" to="36FS"/>
+      <change idref="t37" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t38" to="t34" to-position="3" resolved="yes">
+      <change idref="t38" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t38" attribute="internalPrerequisitesString" type="string" from="" to="37FS"/>
+      <change idref="t38" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t40" to="t39" to-position="0" resolved="yes">
+      <change idref="t40" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t40" attribute="internalPrerequisitesString" type="string" from="" to="38FS"/>
+      <change idref="t40" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t41" to="t39" to-position="1" resolved="yes">
+      <change idref="t41" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t41" attribute="internalPrerequisitesString" type="string" from="" to="40FS"/>
+      <change idref="t41" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t42" to="t39" to-position="2" resolved="yes">
+      <change idref="t42" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t42" attribute="internalPrerequisitesString" type="string" from="" to="41FS"/>
+      <change idref="t42" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t43" to="t39" to-position="3" resolved="yes">
+      <change idref="t43" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t43" attribute="internalPrerequisitesString" type="string" from="" to="42FS"/>
+      <change idref="t43" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t45" to="t44" to-position="0" resolved="yes">
+      <change idref="t45" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t45" attribute="internalPrerequisitesString" type="string" from="" to="43FS"/>
+      <change idref="t45" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t46" to="t44" to-position="1" resolved="yes">
+      <change idref="t46" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t46" attribute="internalPrerequisitesString" type="string" from="" to="45FS"/>
+      <change idref="t46" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t48" to="t47" to-position="0" resolved="yes">
+      <change idref="t48" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t48" attribute="internalPrerequisitesString" type="string" from="" to="46FS"/>
+      <change idref="t48" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t49" to="t47" to-position="1" resolved="yes">
+      <change idref="t49" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t49" attribute="internalPrerequisitesString" type="string" from="" to="48FS"/>
+      <change idref="t49" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t51" to="t50" to-position="0" resolved="yes">
+      <change idref="t51" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t51" attribute="internalPrerequisitesString" type="string" from="" to="49FS"/>
+      <change idref="t51" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t52" to="t50" to-position="1" resolved="yes">
+      <change idref="t52" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t52" attribute="internalPrerequisitesString" type="string" from="" to="51FS"/>
+      <change idref="t52" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t32" to="t53" to-position="0" resolved="yes">
+      <change idref="t32" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t33" to="t53" to-position="1" resolved="yes">
+      <change idref="t33" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t33" attribute="internalPrerequisitesString" type="string" from="" to="32FS"/>
+      <change idref="t33" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t34" to="t53" to-position="2" resolved="yes">
+      <change idref="t34" attribute="internalPrerequisitesString" type="string" from="" to="33FS"/>
+      <change idref="t34" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t34" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t34" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t39" to="t53" to-position="3" resolved="yes">
+      <change idref="t39" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t39" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t39" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t44" to="t53" to-position="4" resolved="yes">
+      <change idref="t44" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t44" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t44" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t47" to="t53" to-position="5" resolved="yes">
+      <change idref="t47" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t47" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t47" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t50" to="t53" to-position="6" resolved="yes">
+      <change idref="t50" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t50" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t50" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t57" to="t56" to-position="0" resolved="yes">
+      <change idref="t57" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t58" to="t56" to-position="1" resolved="yes">
+      <change idref="t58" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t58" attribute="internalPrerequisitesString" type="string" from="" to="57FS"/>
+      <change idref="t58" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t59" to="t56" to-position="2" resolved="yes">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t59" attribute="internalPrerequisitesString" type="string" from="" to="58FS"/>
+      <change idref="t59" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t60" to="t56" to-position="3" resolved="yes">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t60" attribute="internalPrerequisitesString" type="string" from="" to="59FS"/>
+      <change idref="t60" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t62" to="t61" to-position="0" resolved="yes">
+      <change idref="t62" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t62" attribute="internalPrerequisitesString" type="string" from="" to="60FS"/>
+      <change idref="t62" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t63" to="t61" to-position="1" resolved="yes">
+      <change idref="t63" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t63" attribute="internalPrerequisitesString" type="string" from="" to="62FS"/>
+      <change idref="t63" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t64" to="t61" to-position="2" resolved="yes">
+      <change idref="t64" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t64" attribute="internalPrerequisitesString" type="string" from="" to="63FS"/>
+      <change idref="t64" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t65" to="t61" to-position="3" resolved="yes">
+      <change idref="t65" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t65" attribute="internalPrerequisitesString" type="string" from="" to="64FS"/>
+      <change idref="t65" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t67" to="t66" to-position="0" resolved="yes">
+      <change idref="t67" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t67" attribute="internalPrerequisitesString" type="string" from="" to="65FS"/>
+      <change idref="t67" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t68" to="t66" to-position="1" resolved="yes">
+      <change idref="t68" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t68" attribute="internalPrerequisitesString" type="string" from="" to="67FS"/>
+      <change idref="t68" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t70" to="t69" to-position="0" resolved="yes">
+      <change idref="t70" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t70" attribute="internalPrerequisitesString" type="string" from="" to="68FS"/>
+      <change idref="t70" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t71" to="t69" to-position="1" resolved="yes">
+      <change idref="t71" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t71" attribute="internalPrerequisitesString" type="string" from="" to="70FS"/>
+      <change idref="t71" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t73" to="t72" to-position="0" resolved="yes">
+      <change idref="t73" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t73" attribute="internalPrerequisitesString" type="string" from="" to="71FS"/>
+      <change idref="t73" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t74" to="t72" to-position="1" resolved="yes">
+      <change idref="t74" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t74" attribute="internalPrerequisitesString" type="string" from="" to="73FS"/>
+      <change idref="t74" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t54" to="t75" to-position="0" resolved="yes">
+      <change idref="t54" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t55" to="t75" to-position="1" resolved="yes">
+      <change idref="t55" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t55" attribute="internalPrerequisitesString" type="string" from="" to="54FS"/>
+      <change idref="t55" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t56" to="t75" to-position="2" resolved="yes">
+      <change idref="t56" attribute="internalPrerequisitesString" type="string" from="" to="55FS"/>
+      <change idref="t56" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t56" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t56" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t61" to="t75" to-position="3" resolved="yes">
+      <change idref="t61" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t61" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t61" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t66" to="t75" to-position="4" resolved="yes">
+      <change idref="t66" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t66" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t66" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t69" to="t75" to-position="5" resolved="yes">
+      <change idref="t69" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t69" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t69" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t72" to="t75" to-position="6" resolved="yes">
+      <change idref="t72" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t72" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t72" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t79" to="t78" to-position="0" resolved="yes">
+      <change idref="t79" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t80" to="t78" to-position="1" resolved="yes">
+      <change idref="t80" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t80" attribute="internalPrerequisitesString" type="string" from="" to="79FS"/>
+      <change idref="t80" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t81" to="t78" to-position="2" resolved="yes">
+      <change idref="t81" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t81" attribute="internalPrerequisitesString" type="string" from="" to="80FS"/>
+      <change idref="t81" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t82" to="t78" to-position="3" resolved="yes">
+      <change idref="t82" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t82" attribute="internalPrerequisitesString" type="string" from="" to="81FS"/>
+      <change idref="t82" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t84" to="t83" to-position="0" resolved="yes">
+      <change idref="t84" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t84" attribute="internalPrerequisitesString" type="string" from="" to="82FS"/>
+      <change idref="t84" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t85" to="t83" to-position="1" resolved="yes">
+      <change idref="t85" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t85" attribute="internalPrerequisitesString" type="string" from="" to="84FS"/>
+      <change idref="t85" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t86" to="t83" to-position="2" resolved="yes">
+      <change idref="t86" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t86" attribute="internalPrerequisitesString" type="string" from="" to="85FS"/>
+      <change idref="t86" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t87" to="t83" to-position="3" resolved="yes">
+      <change idref="t87" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t87" attribute="internalPrerequisitesString" type="string" from="" to="86FS"/>
+      <change idref="t87" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t89" to="t88" to-position="0" resolved="yes">
+      <change idref="t89" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t89" attribute="internalPrerequisitesString" type="string" from="" to="87FS"/>
+      <change idref="t89" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t90" to="t88" to-position="1" resolved="yes">
+      <change idref="t90" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t90" attribute="internalPrerequisitesString" type="string" from="" to="89FS"/>
+      <change idref="t90" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t92" to="t91" to-position="0" resolved="yes">
+      <change idref="t92" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t92" attribute="internalPrerequisitesString" type="string" from="" to="90FS"/>
+      <change idref="t92" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t93" to="t91" to-position="1" resolved="yes">
+      <change idref="t93" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t93" attribute="internalPrerequisitesString" type="string" from="" to="92FS"/>
+      <change idref="t93" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t95" to="t94" to-position="0" resolved="yes">
+      <change idref="t95" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t95" attribute="internalPrerequisitesString" type="string" from="" to="93FS"/>
+      <change idref="t95" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t96" to="t94" to-position="1" resolved="yes">
+      <change idref="t96" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t96" attribute="internalPrerequisitesString" type="string" from="" to="95FS"/>
+      <change idref="t96" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t76" to="t97" to-position="0" resolved="yes">
+      <change idref="t76" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t77" to="t97" to-position="1" resolved="yes">
+      <change idref="t77" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t77" attribute="internalPrerequisitesString" type="string" from="" to="76FS"/>
+      <change idref="t77" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t78" to="t97" to-position="2" resolved="yes">
+      <change idref="t78" attribute="internalPrerequisitesString" type="string" from="" to="77FS"/>
+      <change idref="t78" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t78" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t78" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t83" to="t97" to-position="3" resolved="yes">
+      <change idref="t83" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t83" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t83" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t88" to="t97" to-position="4" resolved="yes">
+      <change idref="t88" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t88" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t88" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t91" to="t97" to-position="5" resolved="yes">
+      <change idref="t91" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t91" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t91" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t94" to="t97" to-position="6" resolved="yes">
+      <change idref="t94" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t94" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t94" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t101" to="t100" to-position="0" resolved="yes">
+      <change idref="t101" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t102" to="t100" to-position="1" resolved="yes">
+      <change idref="t102" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t102" attribute="internalPrerequisitesString" type="string" from="" to="101FS"/>
+      <change idref="t102" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t103" to="t100" to-position="2" resolved="yes">
+      <change idref="t103" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t103" attribute="internalPrerequisitesString" type="string" from="" to="102FS"/>
+      <change idref="t103" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t104" to="t100" to-position="3" resolved="yes">
+      <change idref="t104" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t104" attribute="internalPrerequisitesString" type="string" from="" to="103FS"/>
+      <change idref="t104" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t106" to="t105" to-position="0" resolved="yes">
+      <change idref="t106" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t106" attribute="internalPrerequisitesString" type="string" from="" to="104FS"/>
+      <change idref="t106" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t107" to="t105" to-position="1" resolved="yes">
+      <change idref="t107" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t107" attribute="internalPrerequisitesString" type="string" from="" to="106FS"/>
+      <change idref="t107" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t108" to="t105" to-position="2" resolved="yes">
+      <change idref="t108" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t108" attribute="internalPrerequisitesString" type="string" from="" to="107FS"/>
+      <change idref="t108" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t109" to="t105" to-position="3" resolved="yes">
+      <change idref="t109" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t109" attribute="internalPrerequisitesString" type="string" from="" to="108FS"/>
+      <change idref="t109" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t111" to="t110" to-position="0" resolved="yes">
+      <change idref="t111" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t111" attribute="internalPrerequisitesString" type="string" from="" to="109FS"/>
+      <change idref="t111" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t112" to="t110" to-position="1" resolved="yes">
+      <change idref="t112" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t112" attribute="internalPrerequisitesString" type="string" from="" to="111FS"/>
+      <change idref="t112" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t114" to="t113" to-position="0" resolved="yes">
+      <change idref="t114" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t114" attribute="internalPrerequisitesString" type="string" from="" to="112FS"/>
+      <change idref="t114" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t115" to="t113" to-position="1" resolved="yes">
+      <change idref="t115" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t115" attribute="internalPrerequisitesString" type="string" from="" to="114FS"/>
+      <change idref="t115" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t117" to="t116" to-position="0" resolved="yes">
+      <change idref="t117" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t117" attribute="internalPrerequisitesString" type="string" from="" to="115FS"/>
+      <change idref="t117" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t118" to="t116" to-position="1" resolved="yes">
+      <change idref="t118" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t118" attribute="internalPrerequisitesString" type="string" from="" to="117FS"/>
+      <change idref="t118" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t98" to="t119" to-position="0" resolved="yes">
+      <change idref="t98" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t99" to="t119" to-position="1" resolved="yes">
+      <change idref="t99" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t99" attribute="internalPrerequisitesString" type="string" from="" to="98FS"/>
+      <change idref="t99" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t100" to="t119" to-position="2" resolved="yes">
+      <change idref="t100" attribute="internalPrerequisitesString" type="string" from="" to="99FS"/>
+      <change idref="t100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t100" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t105" to="t119" to-position="3" resolved="yes">
+      <change idref="t105" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t105" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t105" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t110" to="t119" to-position="4" resolved="yes">
+      <change idref="t110" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t110" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t110" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t113" to="t119" to-position="5" resolved="yes">
+      <change idref="t113" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t113" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t113" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t116" to="t119" to-position="6" resolved="yes">
+      <change idref="t116" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t116" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t116" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t123" to="t122" to-position="0" resolved="yes">
+      <change idref="t123" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t124" to="t122" to-position="1" resolved="yes">
+      <change idref="t124" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t124" attribute="internalPrerequisitesString" type="string" from="" to="123FS"/>
+      <change idref="t124" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t125" to="t122" to-position="2" resolved="yes">
+      <change idref="t125" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t125" attribute="internalPrerequisitesString" type="string" from="" to="124FS"/>
+      <change idref="t125" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t126" to="t122" to-position="3" resolved="yes">
+      <change idref="t126" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t126" attribute="internalPrerequisitesString" type="string" from="" to="125FS"/>
+      <change idref="t126" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t128" to="t127" to-position="0" resolved="yes">
+      <change idref="t128" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t128" attribute="internalPrerequisitesString" type="string" from="" to="126FS"/>
+      <change idref="t128" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t129" to="t127" to-position="1" resolved="yes">
+      <change idref="t129" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t129" attribute="internalPrerequisitesString" type="string" from="" to="128FS"/>
+      <change idref="t129" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t130" to="t127" to-position="2" resolved="yes">
+      <change idref="t130" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t130" attribute="internalPrerequisitesString" type="string" from="" to="129FS"/>
+      <change idref="t130" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t131" to="t127" to-position="3" resolved="yes">
+      <change idref="t131" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t131" attribute="internalPrerequisitesString" type="string" from="" to="130FS"/>
+      <change idref="t131" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t133" to="t132" to-position="0" resolved="yes">
+      <change idref="t133" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t133" attribute="internalPrerequisitesString" type="string" from="" to="131FS"/>
+      <change idref="t133" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t134" to="t132" to-position="1" resolved="yes">
+      <change idref="t134" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t134" attribute="internalPrerequisitesString" type="string" from="" to="133FS"/>
+      <change idref="t134" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t136" to="t135" to-position="0" resolved="yes">
+      <change idref="t136" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t136" attribute="internalPrerequisitesString" type="string" from="" to="134FS"/>
+      <change idref="t136" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t137" to="t135" to-position="1" resolved="yes">
+      <change idref="t137" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t137" attribute="internalPrerequisitesString" type="string" from="" to="136FS"/>
+      <change idref="t137" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t139" to="t138" to-position="0" resolved="yes">
+      <change idref="t139" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t139" attribute="internalPrerequisitesString" type="string" from="" to="137FS"/>
+      <change idref="t139" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t140" to="t138" to-position="1" resolved="yes">
+      <change idref="t140" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t140" attribute="internalPrerequisitesString" type="string" from="" to="139FS"/>
+      <change idref="t140" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t120" to="t141" to-position="0" resolved="yes">
+      <change idref="t120" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t121" to="t141" to-position="1" resolved="yes">
+      <change idref="t121" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t121" attribute="internalPrerequisitesString" type="string" from="" to="120FS"/>
+      <change idref="t121" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t122" to="t141" to-position="2" resolved="yes">
+      <change idref="t122" attribute="internalPrerequisitesString" type="string" from="" to="121FS"/>
+      <change idref="t122" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t122" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t122" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t127" to="t141" to-position="3" resolved="yes">
+      <change idref="t127" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t127" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t127" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t132" to="t141" to-position="4" resolved="yes">
+      <change idref="t132" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t132" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t132" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t135" to="t141" to-position="5" resolved="yes">
+      <change idref="t135" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t135" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t135" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t138" to="t141" to-position="6" resolved="yes">
+      <change idref="t138" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t138" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t138" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t146" to="t145" to-position="0" resolved="yes">
+      <change idref="t146" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t147" to="t145" to-position="1" resolved="yes">
+      <change idref="t147" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t147" attribute="internalPrerequisitesString" type="string" from="" to="146FS"/>
+      <change idref="t147" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t148" to="t145" to-position="2" resolved="yes">
+      <change idref="t148" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t148" attribute="internalPrerequisitesString" type="string" from="" to="147FS"/>
+      <change idref="t148" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t149" to="t145" to-position="3" resolved="yes">
+      <change idref="t149" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t149" attribute="internalPrerequisitesString" type="string" from="" to="148FS"/>
+      <change idref="t149" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t151" to="t150" to-position="0" resolved="yes">
+      <change idref="t151" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t151" attribute="internalPrerequisitesString" type="string" from="" to="149FS"/>
+      <change idref="t151" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t152" to="t150" to-position="1" resolved="yes">
+      <change idref="t152" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t152" attribute="internalPrerequisitesString" type="string" from="" to="151FS"/>
+      <change idref="t152" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t153" to="t150" to-position="2" resolved="yes">
+      <change idref="t153" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t153" attribute="internalPrerequisitesString" type="string" from="" to="152FS"/>
+      <change idref="t153" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t154" to="t150" to-position="3" resolved="yes">
+      <change idref="t154" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t154" attribute="internalPrerequisitesString" type="string" from="" to="153FS"/>
+      <change idref="t154" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t156" to="t155" to-position="0" resolved="yes">
+      <change idref="t156" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t156" attribute="internalPrerequisitesString" type="string" from="" to="154FS"/>
+      <change idref="t156" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t157" to="t155" to-position="1" resolved="yes">
+      <change idref="t157" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t157" attribute="internalPrerequisitesString" type="string" from="" to="156FS"/>
+      <change idref="t157" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t159" to="t158" to-position="0" resolved="yes">
+      <change idref="t159" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t159" attribute="internalPrerequisitesString" type="string" from="" to="157FS"/>
+      <change idref="t159" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t160" to="t158" to-position="1" resolved="yes">
+      <change idref="t160" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t160" attribute="internalPrerequisitesString" type="string" from="" to="159FS"/>
+      <change idref="t160" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t162" to="t161" to-position="0" resolved="yes">
+      <change idref="t162" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t162" attribute="internalPrerequisitesString" type="string" from="" to="160FS"/>
+      <change idref="t162" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t163" to="t161" to-position="1" resolved="yes">
+      <change idref="t163" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t163" attribute="internalPrerequisitesString" type="string" from="" to="162FS"/>
+      <change idref="t163" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t143" to="t164" to-position="0" resolved="yes">
+      <change idref="t143" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t144" to="t164" to-position="1" resolved="yes">
+      <change idref="t144" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t144" attribute="internalPrerequisitesString" type="string" from="" to="143FS"/>
+      <change idref="t144" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t145" to="t164" to-position="2" resolved="yes">
+      <change idref="t145" attribute="internalPrerequisitesString" type="string" from="" to="144FS"/>
+      <change idref="t145" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t145" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t145" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t150" to="t164" to-position="3" resolved="yes">
+      <change idref="t150" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t150" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t150" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t155" to="t164" to-position="4" resolved="yes">
+      <change idref="t155" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t155" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t155" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t158" to="t164" to-position="5" resolved="yes">
+      <change idref="t158" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t158" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t158" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t161" to="t164" to-position="6" resolved="yes">
+      <change idref="t161" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t161" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t161" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t169" to="t168" to-position="0" resolved="yes">
+      <change idref="t169" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t170" to="t168" to-position="1" resolved="yes">
+      <change idref="t170" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t170" attribute="internalPrerequisitesString" type="string" from="" to="169FS"/>
+      <change idref="t170" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t171" to="t168" to-position="2" resolved="yes">
+      <change idref="t171" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t171" attribute="internalPrerequisitesString" type="string" from="" to="170FS"/>
+      <change idref="t171" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t172" to="t168" to-position="3" resolved="yes">
+      <change idref="t172" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t172" attribute="internalPrerequisitesString" type="string" from="" to="171FS"/>
+      <change idref="t172" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t174" to="t173" to-position="0" resolved="yes">
+      <change idref="t174" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t174" attribute="internalPrerequisitesString" type="string" from="" to="172FS"/>
+      <change idref="t174" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t175" to="t173" to-position="1" resolved="yes">
+      <change idref="t175" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t175" attribute="internalPrerequisitesString" type="string" from="" to="174FS"/>
+      <change idref="t175" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t176" to="t173" to-position="2" resolved="yes">
+      <change idref="t176" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t176" attribute="internalPrerequisitesString" type="string" from="" to="175FS"/>
+      <change idref="t176" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t177" to="t173" to-position="3" resolved="yes">
+      <change idref="t177" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t177" attribute="internalPrerequisitesString" type="string" from="" to="176FS"/>
+      <change idref="t177" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t179" to="t178" to-position="0" resolved="yes">
+      <change idref="t179" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t179" attribute="internalPrerequisitesString" type="string" from="" to="177FS"/>
+      <change idref="t179" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t180" to="t178" to-position="1" resolved="yes">
+      <change idref="t180" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t180" attribute="internalPrerequisitesString" type="string" from="" to="179FS"/>
+      <change idref="t180" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t182" to="t181" to-position="0" resolved="yes">
+      <change idref="t182" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t182" attribute="internalPrerequisitesString" type="string" from="" to="180FS"/>
+      <change idref="t182" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t183" to="t181" to-position="1" resolved="yes">
+      <change idref="t183" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t183" attribute="internalPrerequisitesString" type="string" from="" to="182FS"/>
+      <change idref="t183" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t185" to="t184" to-position="0" resolved="yes">
+      <change idref="t185" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t185" attribute="internalPrerequisitesString" type="string" from="" to="183FS"/>
+      <change idref="t185" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t186" to="t184" to-position="1" resolved="yes">
+      <change idref="t186" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t186" attribute="internalPrerequisitesString" type="string" from="" to="185FS"/>
+      <change idref="t186" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t166" to="t187" to-position="0" resolved="yes">
+      <change idref="t166" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t167" to="t187" to-position="1" resolved="yes">
+      <change idref="t167" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t167" attribute="internalPrerequisitesString" type="string" from="" to="166FS"/>
+      <change idref="t167" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t168" to="t187" to-position="2" resolved="yes">
+      <change idref="t168" attribute="internalPrerequisitesString" type="string" from="" to="167FS"/>
+      <change idref="t168" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t168" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t168" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t173" to="t187" to-position="3" resolved="yes">
+      <change idref="t173" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t173" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t173" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t178" to="t187" to-position="4" resolved="yes">
+      <change idref="t178" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t178" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t178" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t181" to="t187" to-position="5" resolved="yes">
+      <change idref="t181" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t181" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t181" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t184" to="t187" to-position="6" resolved="yes">
+      <change idref="t184" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t184" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t184" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t191" to="t190" to-position="0" resolved="yes">
+      <change idref="t191" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t192" to="t190" to-position="1" resolved="yes">
+      <change idref="t192" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t192" attribute="internalPrerequisitesString" type="string" from="" to="191FS"/>
+      <change idref="t192" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t193" to="t190" to-position="2" resolved="yes">
+      <change idref="t193" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t193" attribute="internalPrerequisitesString" type="string" from="" to="192FS"/>
+      <change idref="t193" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t194" to="t190" to-position="3" resolved="yes">
+      <change idref="t194" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t194" attribute="internalPrerequisitesString" type="string" from="" to="193FS"/>
+      <change idref="t194" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t196" to="t195" to-position="0" resolved="yes">
+      <change idref="t196" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t196" attribute="internalPrerequisitesString" type="string" from="" to="194FS"/>
+      <change idref="t196" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t197" to="t195" to-position="1" resolved="yes">
+      <change idref="t197" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t197" attribute="internalPrerequisitesString" type="string" from="" to="196FS"/>
+      <change idref="t197" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t198" to="t195" to-position="2" resolved="yes">
+      <change idref="t198" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t198" attribute="internalPrerequisitesString" type="string" from="" to="197FS"/>
+      <change idref="t198" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t199" to="t195" to-position="3" resolved="yes">
+      <change idref="t199" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t199" attribute="internalPrerequisitesString" type="string" from="" to="198FS"/>
+      <change idref="t199" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t201" to="t200" to-position="0" resolved="yes">
+      <change idref="t201" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t201" attribute="internalPrerequisitesString" type="string" from="" to="199FS"/>
+      <change idref="t201" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t202" to="t200" to-position="1" resolved="yes">
+      <change idref="t202" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t202" attribute="internalPrerequisitesString" type="string" from="" to="201FS"/>
+      <change idref="t202" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t204" to="t203" to-position="0" resolved="yes">
+      <change idref="t204" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t204" attribute="internalPrerequisitesString" type="string" from="" to="202FS"/>
+      <change idref="t204" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t205" to="t203" to-position="1" resolved="yes">
+      <change idref="t205" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t205" attribute="internalPrerequisitesString" type="string" from="" to="204FS"/>
+      <change idref="t205" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t207" to="t206" to-position="0" resolved="yes">
+      <change idref="t207" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t207" attribute="internalPrerequisitesString" type="string" from="" to="205FS"/>
+      <change idref="t207" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t208" to="t206" to-position="1" resolved="yes">
+      <change idref="t208" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t208" attribute="internalPrerequisitesString" type="string" from="" to="207FS"/>
+      <change idref="t208" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t188" to="t209" to-position="0" resolved="yes">
+      <change idref="t188" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t189" to="t209" to-position="1" resolved="yes">
+      <change idref="t189" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t189" attribute="internalPrerequisitesString" type="string" from="" to="188FS"/>
+      <change idref="t189" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t190" to="t209" to-position="2" resolved="yes">
+      <change idref="t190" attribute="internalPrerequisitesString" type="string" from="" to="189FS"/>
+      <change idref="t190" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t190" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t190" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t195" to="t209" to-position="3" resolved="yes">
+      <change idref="t195" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t195" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t195" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t200" to="t209" to-position="4" resolved="yes">
+      <change idref="t200" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t200" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t200" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t203" to="t209" to-position="5" resolved="yes">
+      <change idref="t203" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t203" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t203" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t206" to="t209" to-position="6" resolved="yes">
+      <change idref="t206" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t206" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t206" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t213" to="t212" to-position="0" resolved="yes">
+      <change idref="t213" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t214" to="t212" to-position="1" resolved="yes">
+      <change idref="t214" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t214" attribute="internalPrerequisitesString" type="string" from="" to="213FS"/>
+      <change idref="t214" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t215" to="t212" to-position="2" resolved="yes">
+      <change idref="t215" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t215" attribute="internalPrerequisitesString" type="string" from="" to="214FS"/>
+      <change idref="t215" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t216" to="t212" to-position="3" resolved="yes">
+      <change idref="t216" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t216" attribute="internalPrerequisitesString" type="string" from="" to="215FS"/>
+      <change idref="t216" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t218" to="t217" to-position="0" resolved="yes">
+      <change idref="t218" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t218" attribute="internalPrerequisitesString" type="string" from="" to="216FS"/>
+      <change idref="t218" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t219" to="t217" to-position="1" resolved="yes">
+      <change idref="t219" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t219" attribute="internalPrerequisitesString" type="string" from="" to="218FS"/>
+      <change idref="t219" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t220" to="t217" to-position="2" resolved="yes">
+      <change idref="t220" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t220" attribute="internalPrerequisitesString" type="string" from="" to="219FS"/>
+      <change idref="t220" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t221" to="t217" to-position="3" resolved="yes">
+      <change idref="t221" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t221" attribute="internalPrerequisitesString" type="string" from="" to="220FS"/>
+      <change idref="t221" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t223" to="t222" to-position="0" resolved="yes">
+      <change idref="t223" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t223" attribute="internalPrerequisitesString" type="string" from="" to="221FS"/>
+      <change idref="t223" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t224" to="t222" to-position="1" resolved="yes">
+      <change idref="t224" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t224" attribute="internalPrerequisitesString" type="string" from="" to="223FS"/>
+      <change idref="t224" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t226" to="t225" to-position="0" resolved="yes">
+      <change idref="t226" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t226" attribute="internalPrerequisitesString" type="string" from="" to="224FS"/>
+      <change idref="t226" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t227" to="t225" to-position="1" resolved="yes">
+      <change idref="t227" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t227" attribute="internalPrerequisitesString" type="string" from="" to="226FS"/>
+      <change idref="t227" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t229" to="t228" to-position="0" resolved="yes">
+      <change idref="t229" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t229" attribute="internalPrerequisitesString" type="string" from="" to="227FS"/>
+      <change idref="t229" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t230" to="t228" to-position="1" resolved="yes">
+      <change idref="t230" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t230" attribute="internalPrerequisitesString" type="string" from="" to="229FS"/>
+      <change idref="t230" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t210" to="t231" to-position="0" resolved="yes">
+      <change idref="t210" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t211" to="t231" to-position="1" resolved="yes">
+      <change idref="t211" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t211" attribute="internalPrerequisitesString" type="string" from="" to="210FS"/>
+      <change idref="t211" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t212" to="t231" to-position="2" resolved="yes">
+      <change idref="t212" attribute="internalPrerequisitesString" type="string" from="" to="211FS"/>
+      <change idref="t212" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t212" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t212" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t217" to="t231" to-position="3" resolved="yes">
+      <change idref="t217" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t217" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t217" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t222" to="t231" to-position="4" resolved="yes">
+      <change idref="t222" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t222" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t222" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t225" to="t231" to-position="5" resolved="yes">
+      <change idref="t225" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t225" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t225" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t228" to="t231" to-position="6" resolved="yes">
+      <change idref="t228" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t228" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t228" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t235" to="t234" to-position="0" resolved="yes">
+      <change idref="t235" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t236" to="t234" to-position="1" resolved="yes">
+      <change idref="t236" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t236" attribute="internalPrerequisitesString" type="string" from="" to="235FS"/>
+      <change idref="t236" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t237" to="t234" to-position="2" resolved="yes">
+      <change idref="t237" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t237" attribute="internalPrerequisitesString" type="string" from="" to="236FS"/>
+      <change idref="t237" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t238" to="t234" to-position="3" resolved="yes">
+      <change idref="t238" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t238" attribute="internalPrerequisitesString" type="string" from="" to="237FS"/>
+      <change idref="t238" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t240" to="t239" to-position="0" resolved="yes">
+      <change idref="t240" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t240" attribute="internalPrerequisitesString" type="string" from="" to="238FS"/>
+      <change idref="t240" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t241" to="t239" to-position="1" resolved="yes">
+      <change idref="t241" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t241" attribute="internalPrerequisitesString" type="string" from="" to="240FS"/>
+      <change idref="t241" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t242" to="t239" to-position="2" resolved="yes">
+      <change idref="t242" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t242" attribute="internalPrerequisitesString" type="string" from="" to="241FS"/>
+      <change idref="t242" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t243" to="t239" to-position="3" resolved="yes">
+      <change idref="t243" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t243" attribute="internalPrerequisitesString" type="string" from="" to="242FS"/>
+      <change idref="t243" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t245" to="t244" to-position="0" resolved="yes">
+      <change idref="t245" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t245" attribute="internalPrerequisitesString" type="string" from="" to="243FS"/>
+      <change idref="t245" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t246" to="t244" to-position="1" resolved="yes">
+      <change idref="t246" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t246" attribute="internalPrerequisitesString" type="string" from="" to="245FS"/>
+      <change idref="t246" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t248" to="t247" to-position="0" resolved="yes">
+      <change idref="t248" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t248" attribute="internalPrerequisitesString" type="string" from="" to="246FS"/>
+      <change idref="t248" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t249" to="t247" to-position="1" resolved="yes">
+      <change idref="t249" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t249" attribute="internalPrerequisitesString" type="string" from="" to="248FS"/>
+      <change idref="t249" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t251" to="t250" to-position="0" resolved="yes">
+      <change idref="t251" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t251" attribute="internalPrerequisitesString" type="string" from="" to="249FS"/>
+      <change idref="t251" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t252" to="t250" to-position="1" resolved="yes">
+      <change idref="t252" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t252" attribute="internalPrerequisitesString" type="string" from="" to="251FS"/>
+      <change idref="t252" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t232" to="t253" to-position="0" resolved="yes">
+      <change idref="t232" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t233" to="t253" to-position="1" resolved="yes">
+      <change idref="t233" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t233" attribute="internalPrerequisitesString" type="string" from="" to="232FS"/>
+      <change idref="t233" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t234" to="t253" to-position="2" resolved="yes">
+      <change idref="t234" attribute="internalPrerequisitesString" type="string" from="" to="233FS"/>
+      <change idref="t234" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t234" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t234" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t239" to="t253" to-position="3" resolved="yes">
+      <change idref="t239" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t239" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t239" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t244" to="t253" to-position="4" resolved="yes">
+      <change idref="t244" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t244" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t244" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t247" to="t253" to-position="5" resolved="yes">
+      <change idref="t247" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t247" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t247" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t250" to="t253" to-position="6" resolved="yes">
+      <change idref="t250" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t250" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t250" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t257" to="t256" to-position="0" resolved="yes">
+      <change idref="t257" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t258" to="t256" to-position="1" resolved="yes">
+      <change idref="t258" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t258" attribute="internalPrerequisitesString" type="string" from="" to="257FS"/>
+      <change idref="t258" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t259" to="t256" to-position="2" resolved="yes">
+      <change idref="t259" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t259" attribute="internalPrerequisitesString" type="string" from="" to="258FS"/>
+      <change idref="t259" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t260" to="t256" to-position="3" resolved="yes">
+      <change idref="t260" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t260" attribute="internalPrerequisitesString" type="string" from="" to="259FS"/>
+      <change idref="t260" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t262" to="t261" to-position="0" resolved="yes">
+      <change idref="t262" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t262" attribute="internalPrerequisitesString" type="string" from="" to="260FS"/>
+      <change idref="t262" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t263" to="t261" to-position="1" resolved="yes">
+      <change idref="t263" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t263" attribute="internalPrerequisitesString" type="string" from="" to="262FS"/>
+      <change idref="t263" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t264" to="t261" to-position="2" resolved="yes">
+      <change idref="t264" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t264" attribute="internalPrerequisitesString" type="string" from="" to="263FS"/>
+      <change idref="t264" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t265" to="t261" to-position="3" resolved="yes">
+      <change idref="t265" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t265" attribute="internalPrerequisitesString" type="string" from="" to="264FS"/>
+      <change idref="t265" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t267" to="t266" to-position="0" resolved="yes">
+      <change idref="t267" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t267" attribute="internalPrerequisitesString" type="string" from="" to="265FS"/>
+      <change idref="t267" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t268" to="t266" to-position="1" resolved="yes">
+      <change idref="t268" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t268" attribute="internalPrerequisitesString" type="string" from="" to="267FS"/>
+      <change idref="t268" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t270" to="t269" to-position="0" resolved="yes">
+      <change idref="t270" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t270" attribute="internalPrerequisitesString" type="string" from="" to="268FS"/>
+      <change idref="t270" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t271" to="t269" to-position="1" resolved="yes">
+      <change idref="t271" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t271" attribute="internalPrerequisitesString" type="string" from="" to="270FS"/>
+      <change idref="t271" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t273" to="t272" to-position="0" resolved="yes">
+      <change idref="t273" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t273" attribute="internalPrerequisitesString" type="string" from="" to="271FS"/>
+      <change idref="t273" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t274" to="t272" to-position="1" resolved="yes">
+      <change idref="t274" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t274" attribute="internalPrerequisitesString" type="string" from="" to="273FS"/>
+      <change idref="t274" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t254" to="t275" to-position="0" resolved="yes">
+      <change idref="t254" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t255" to="t275" to-position="1" resolved="yes">
+      <change idref="t255" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t255" attribute="internalPrerequisitesString" type="string" from="" to="254FS"/>
+      <change idref="t255" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t256" to="t275" to-position="2" resolved="yes">
+      <change idref="t256" attribute="internalPrerequisitesString" type="string" from="" to="255FS"/>
+      <change idref="t256" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t256" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t256" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t261" to="t275" to-position="3" resolved="yes">
+      <change idref="t261" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t261" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t261" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t266" to="t275" to-position="4" resolved="yes">
+      <change idref="t266" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t266" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t266" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t269" to="t275" to-position="5" resolved="yes">
+      <change idref="t269" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t269" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t269" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t272" to="t275" to-position="6" resolved="yes">
+      <change idref="t272" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t272" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t272" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t279" to="t278" to-position="0" resolved="yes">
+      <change idref="t279" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t280" to="t278" to-position="1" resolved="yes">
+      <change idref="t280" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t280" attribute="internalPrerequisitesString" type="string" from="" to="279FS"/>
+      <change idref="t280" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t281" to="t278" to-position="2" resolved="yes">
+      <change idref="t281" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t281" attribute="internalPrerequisitesString" type="string" from="" to="280FS"/>
+      <change idref="t281" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t282" to="t278" to-position="3" resolved="yes">
+      <change idref="t282" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t282" attribute="internalPrerequisitesString" type="string" from="" to="281FS"/>
+      <change idref="t282" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t284" to="t283" to-position="0" resolved="yes">
+      <change idref="t284" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t284" attribute="internalPrerequisitesString" type="string" from="" to="282FS"/>
+      <change idref="t284" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t285" to="t283" to-position="1" resolved="yes">
+      <change idref="t285" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t285" attribute="internalPrerequisitesString" type="string" from="" to="284FS"/>
+      <change idref="t285" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t286" to="t283" to-position="2" resolved="yes">
+      <change idref="t286" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t286" attribute="internalPrerequisitesString" type="string" from="" to="285FS"/>
+      <change idref="t286" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t287" to="t283" to-position="3" resolved="yes">
+      <change idref="t287" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t287" attribute="internalPrerequisitesString" type="string" from="" to="286FS"/>
+      <change idref="t287" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t289" to="t288" to-position="0" resolved="yes">
+      <change idref="t289" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t289" attribute="internalPrerequisitesString" type="string" from="" to="287FS"/>
+      <change idref="t289" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t290" to="t288" to-position="1" resolved="yes">
+      <change idref="t290" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t290" attribute="internalPrerequisitesString" type="string" from="" to="289FS"/>
+      <change idref="t290" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t292" to="t291" to-position="0" resolved="yes">
+      <change idref="t292" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t292" attribute="internalPrerequisitesString" type="string" from="" to="290FS"/>
+      <change idref="t292" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t293" to="t291" to-position="1" resolved="yes">
+      <change idref="t293" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t293" attribute="internalPrerequisitesString" type="string" from="" to="292FS"/>
+      <change idref="t293" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t295" to="t294" to-position="0" resolved="yes">
+      <change idref="t295" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t295" attribute="internalPrerequisitesString" type="string" from="" to="293FS"/>
+      <change idref="t295" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t296" to="t294" to-position="1" resolved="yes">
+      <change idref="t296" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t296" attribute="internalPrerequisitesString" type="string" from="" to="295FS"/>
+      <change idref="t296" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t276" to="t297" to-position="0" resolved="yes">
+      <change idref="t276" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t277" to="t297" to-position="1" resolved="yes">
+      <change idref="t277" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t277" attribute="internalPrerequisitesString" type="string" from="" to="276FS"/>
+      <change idref="t277" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t278" to="t297" to-position="2" resolved="yes">
+      <change idref="t278" attribute="internalPrerequisitesString" type="string" from="" to="277FS"/>
+      <change idref="t278" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t278" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t278" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t283" to="t297" to-position="3" resolved="yes">
+      <change idref="t283" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t283" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t283" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t288" to="t297" to-position="4" resolved="yes">
+      <change idref="t288" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t288" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t288" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t291" to="t297" to-position="5" resolved="yes">
+      <change idref="t291" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t291" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t291" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t294" to="t297" to-position="6" resolved="yes">
+      <change idref="t294" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t294" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t294" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t301" to="t300" to-position="0" resolved="yes">
+      <change idref="t301" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t302" to="t300" to-position="1" resolved="yes">
+      <change idref="t302" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t302" attribute="internalPrerequisitesString" type="string" from="" to="301FS"/>
+      <change idref="t302" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t303" to="t300" to-position="2" resolved="yes">
+      <change idref="t303" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t303" attribute="internalPrerequisitesString" type="string" from="" to="302FS"/>
+      <change idref="t303" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t304" to="t300" to-position="3" resolved="yes">
+      <change idref="t304" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t304" attribute="internalPrerequisitesString" type="string" from="" to="303FS"/>
+      <change idref="t304" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t306" to="t305" to-position="0" resolved="yes">
+      <change idref="t306" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t306" attribute="internalPrerequisitesString" type="string" from="" to="304FS"/>
+      <change idref="t306" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t307" to="t305" to-position="1" resolved="yes">
+      <change idref="t307" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t307" attribute="internalPrerequisitesString" type="string" from="" to="306FS"/>
+      <change idref="t307" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t308" to="t305" to-position="2" resolved="yes">
+      <change idref="t308" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t308" attribute="internalPrerequisitesString" type="string" from="" to="307FS"/>
+      <change idref="t308" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t309" to="t305" to-position="3" resolved="yes">
+      <change idref="t309" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t309" attribute="internalPrerequisitesString" type="string" from="" to="308FS"/>
+      <change idref="t309" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t311" to="t310" to-position="0" resolved="yes">
+      <change idref="t311" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t311" attribute="internalPrerequisitesString" type="string" from="" to="309FS"/>
+      <change idref="t311" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t312" to="t310" to-position="1" resolved="yes">
+      <change idref="t312" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t312" attribute="internalPrerequisitesString" type="string" from="" to="311FS"/>
+      <change idref="t312" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t314" to="t313" to-position="0" resolved="yes">
+      <change idref="t314" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t314" attribute="internalPrerequisitesString" type="string" from="" to="312FS"/>
+      <change idref="t314" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t315" to="t313" to-position="1" resolved="yes">
+      <change idref="t315" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t315" attribute="internalPrerequisitesString" type="string" from="" to="314FS"/>
+      <change idref="t315" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t317" to="t316" to-position="0" resolved="yes">
+      <change idref="t317" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t317" attribute="internalPrerequisitesString" type="string" from="" to="315FS"/>
+      <change idref="t317" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t318" to="t316" to-position="1" resolved="yes">
+      <change idref="t318" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t318" attribute="internalPrerequisitesString" type="string" from="" to="317FS"/>
+      <change idref="t318" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t298" to="t319" to-position="0" resolved="yes">
+      <change idref="t298" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t299" to="t319" to-position="1" resolved="yes">
+      <change idref="t299" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t299" attribute="internalPrerequisitesString" type="string" from="" to="298FS"/>
+      <change idref="t299" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t300" to="t319" to-position="2" resolved="yes">
+      <change idref="t300" attribute="internalPrerequisitesString" type="string" from="" to="299FS"/>
+      <change idref="t300" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t300" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t300" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t305" to="t319" to-position="3" resolved="yes">
+      <change idref="t305" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t305" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t305" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t310" to="t319" to-position="4" resolved="yes">
+      <change idref="t310" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t310" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t310" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t313" to="t319" to-position="5" resolved="yes">
+      <change idref="t313" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t313" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t313" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t316" to="t319" to-position="6" resolved="yes">
+      <change idref="t316" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t316" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t316" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t323" to="t322" to-position="0" resolved="yes">
+      <change idref="t323" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t324" to="t322" to-position="1" resolved="yes">
+      <change idref="t324" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t324" attribute="internalPrerequisitesString" type="string" from="" to="323FS"/>
+      <change idref="t324" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t325" to="t322" to-position="2" resolved="yes">
+      <change idref="t325" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t325" attribute="internalPrerequisitesString" type="string" from="" to="324FS"/>
+      <change idref="t325" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t326" to="t322" to-position="3" resolved="yes">
+      <change idref="t326" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t326" attribute="internalPrerequisitesString" type="string" from="" to="325FS"/>
+      <change idref="t326" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t328" to="t327" to-position="0" resolved="yes">
+      <change idref="t328" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t328" attribute="internalPrerequisitesString" type="string" from="" to="326FS"/>
+      <change idref="t328" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t329" to="t327" to-position="1" resolved="yes">
+      <change idref="t329" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t329" attribute="internalPrerequisitesString" type="string" from="" to="328FS"/>
+      <change idref="t329" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t330" to="t327" to-position="2" resolved="yes">
+      <change idref="t330" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t330" attribute="internalPrerequisitesString" type="string" from="" to="329FS"/>
+      <change idref="t330" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t331" to="t327" to-position="3" resolved="yes">
+      <change idref="t331" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t331" attribute="internalPrerequisitesString" type="string" from="" to="330FS"/>
+      <change idref="t331" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t333" to="t332" to-position="0" resolved="yes">
+      <change idref="t333" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t333" attribute="internalPrerequisitesString" type="string" from="" to="331FS"/>
+      <change idref="t333" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t334" to="t332" to-position="1" resolved="yes">
+      <change idref="t334" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t334" attribute="internalPrerequisitesString" type="string" from="" to="333FS"/>
+      <change idref="t334" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t336" to="t335" to-position="0" resolved="yes">
+      <change idref="t336" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t336" attribute="internalPrerequisitesString" type="string" from="" to="334FS"/>
+      <change idref="t336" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t337" to="t335" to-position="1" resolved="yes">
+      <change idref="t337" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t337" attribute="internalPrerequisitesString" type="string" from="" to="336FS"/>
+      <change idref="t337" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t339" to="t338" to-position="0" resolved="yes">
+      <change idref="t339" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t339" attribute="internalPrerequisitesString" type="string" from="" to="337FS"/>
+      <change idref="t339" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t340" to="t338" to-position="1" resolved="yes">
+      <change idref="t340" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t340" attribute="internalPrerequisitesString" type="string" from="" to="339FS"/>
+      <change idref="t340" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t320" to="t341" to-position="0" resolved="yes">
+      <change idref="t320" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t321" to="t341" to-position="1" resolved="yes">
+      <change idref="t321" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t321" attribute="internalPrerequisitesString" type="string" from="" to="320FS"/>
+      <change idref="t321" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t322" to="t341" to-position="2" resolved="yes">
+      <change idref="t322" attribute="internalPrerequisitesString" type="string" from="" to="321FS"/>
+      <change idref="t322" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t322" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t322" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t327" to="t341" to-position="3" resolved="yes">
+      <change idref="t327" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t327" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t327" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t332" to="t341" to-position="4" resolved="yes">
+      <change idref="t332" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t332" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t332" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t335" to="t341" to-position="5" resolved="yes">
+      <change idref="t335" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t335" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t335" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t338" to="t341" to-position="6" resolved="yes">
+      <change idref="t338" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t338" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t338" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t345" to="t344" to-position="0" resolved="yes">
+      <change idref="t345" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t346" to="t344" to-position="1" resolved="yes">
+      <change idref="t346" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t346" attribute="internalPrerequisitesString" type="string" from="" to="345FS"/>
+      <change idref="t346" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t347" to="t344" to-position="2" resolved="yes">
+      <change idref="t347" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t347" attribute="internalPrerequisitesString" type="string" from="" to="346FS"/>
+      <change idref="t347" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t348" to="t344" to-position="3" resolved="yes">
+      <change idref="t348" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t348" attribute="internalPrerequisitesString" type="string" from="" to="347FS"/>
+      <change idref="t348" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t350" to="t349" to-position="0" resolved="yes">
+      <change idref="t350" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t350" attribute="internalPrerequisitesString" type="string" from="" to="348FS"/>
+      <change idref="t350" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t351" to="t349" to-position="1" resolved="yes">
+      <change idref="t351" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t351" attribute="internalPrerequisitesString" type="string" from="" to="350FS"/>
+      <change idref="t351" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t352" to="t349" to-position="2" resolved="yes">
+      <change idref="t352" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t352" attribute="internalPrerequisitesString" type="string" from="" to="351FS"/>
+      <change idref="t352" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t353" to="t349" to-position="3" resolved="yes">
+      <change idref="t353" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t353" attribute="internalPrerequisitesString" type="string" from="" to="352FS"/>
+      <change idref="t353" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t355" to="t354" to-position="0" resolved="yes">
+      <change idref="t355" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t355" attribute="internalPrerequisitesString" type="string" from="" to="353FS"/>
+      <change idref="t355" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t356" to="t354" to-position="1" resolved="yes">
+      <change idref="t356" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t356" attribute="internalPrerequisitesString" type="string" from="" to="355FS"/>
+      <change idref="t356" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t358" to="t357" to-position="0" resolved="yes">
+      <change idref="t358" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t358" attribute="internalPrerequisitesString" type="string" from="" to="356FS"/>
+      <change idref="t358" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t359" to="t357" to-position="1" resolved="yes">
+      <change idref="t359" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t359" attribute="internalPrerequisitesString" type="string" from="" to="358FS"/>
+      <change idref="t359" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t361" to="t360" to-position="0" resolved="yes">
+      <change idref="t361" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t361" attribute="internalPrerequisitesString" type="string" from="" to="359FS"/>
+      <change idref="t361" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t362" to="t360" to-position="1" resolved="yes">
+      <change idref="t362" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t362" attribute="internalPrerequisitesString" type="string" from="" to="361FS"/>
+      <change idref="t362" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t342" to="t363" to-position="0" resolved="yes">
+      <change idref="t342" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t343" to="t363" to-position="1" resolved="yes">
+      <change idref="t343" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t343" attribute="internalPrerequisitesString" type="string" from="" to="342FS"/>
+      <change idref="t343" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t344" to="t363" to-position="2" resolved="yes">
+      <change idref="t344" attribute="internalPrerequisitesString" type="string" from="" to="343FS"/>
+      <change idref="t344" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t344" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t344" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t349" to="t363" to-position="3" resolved="yes">
+      <change idref="t349" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t349" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t349" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t354" to="t363" to-position="4" resolved="yes">
+      <change idref="t354" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t354" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t354" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t357" to="t363" to-position="5" resolved="yes">
+      <change idref="t357" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t357" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t357" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t360" to="t363" to-position="6" resolved="yes">
+      <change idref="t360" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t360" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t360" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t367" to="t366" to-position="0" resolved="yes">
+      <change idref="t367" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t368" to="t366" to-position="1" resolved="yes">
+      <change idref="t368" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t368" attribute="internalPrerequisitesString" type="string" from="" to="367FS"/>
+      <change idref="t368" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t369" to="t366" to-position="2" resolved="yes">
+      <change idref="t369" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t369" attribute="internalPrerequisitesString" type="string" from="" to="368FS"/>
+      <change idref="t369" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t370" to="t366" to-position="3" resolved="yes">
+      <change idref="t370" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t370" attribute="internalPrerequisitesString" type="string" from="" to="369FS"/>
+      <change idref="t370" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t372" to="t371" to-position="0" resolved="yes">
+      <change idref="t372" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t372" attribute="internalPrerequisitesString" type="string" from="" to="370FS"/>
+      <change idref="t372" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t373" to="t371" to-position="1" resolved="yes">
+      <change idref="t373" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t373" attribute="internalPrerequisitesString" type="string" from="" to="372FS"/>
+      <change idref="t373" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t374" to="t371" to-position="2" resolved="yes">
+      <change idref="t374" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t374" attribute="internalPrerequisitesString" type="string" from="" to="373FS"/>
+      <change idref="t374" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t375" to="t371" to-position="3" resolved="yes">
+      <change idref="t375" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t375" attribute="internalPrerequisitesString" type="string" from="" to="374FS"/>
+      <change idref="t375" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t377" to="t376" to-position="0" resolved="yes">
+      <change idref="t377" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t377" attribute="internalPrerequisitesString" type="string" from="" to="375FS"/>
+      <change idref="t377" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t378" to="t376" to-position="1" resolved="yes">
+      <change idref="t378" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t378" attribute="internalPrerequisitesString" type="string" from="" to="377FS"/>
+      <change idref="t378" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t380" to="t379" to-position="0" resolved="yes">
+      <change idref="t380" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t380" attribute="internalPrerequisitesString" type="string" from="" to="378FS"/>
+      <change idref="t380" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t381" to="t379" to-position="1" resolved="yes">
+      <change idref="t381" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t381" attribute="internalPrerequisitesString" type="string" from="" to="380FS"/>
+      <change idref="t381" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t383" to="t382" to-position="0" resolved="yes">
+      <change idref="t383" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t383" attribute="internalPrerequisitesString" type="string" from="" to="381FS"/>
+      <change idref="t383" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t384" to="t382" to-position="1" resolved="yes">
+      <change idref="t384" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t384" attribute="internalPrerequisitesString" type="string" from="" to="383FS"/>
+      <change idref="t384" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t364" to="t385" to-position="0" resolved="yes">
+      <change idref="t364" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t365" to="t385" to-position="1" resolved="yes">
+      <change idref="t365" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t365" attribute="internalPrerequisitesString" type="string" from="" to="364FS"/>
+      <change idref="t365" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t366" to="t385" to-position="2" resolved="yes">
+      <change idref="t366" attribute="internalPrerequisitesString" type="string" from="" to="365FS"/>
+      <change idref="t366" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t366" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t366" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t371" to="t385" to-position="3" resolved="yes">
+      <change idref="t371" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t371" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t371" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t376" to="t385" to-position="4" resolved="yes">
+      <change idref="t376" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t376" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t376" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t379" to="t385" to-position="5" resolved="yes">
+      <change idref="t379" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t379" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t379" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t382" to="t385" to-position="6" resolved="yes">
+      <change idref="t382" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t382" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t382" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t389" to="t388" to-position="0" resolved="yes">
+      <change idref="t389" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t390" to="t388" to-position="1" resolved="yes">
+      <change idref="t390" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t390" attribute="internalPrerequisitesString" type="string" from="" to="389FS"/>
+      <change idref="t390" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t391" to="t388" to-position="2" resolved="yes">
+      <change idref="t391" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t391" attribute="internalPrerequisitesString" type="string" from="" to="390FS"/>
+      <change idref="t391" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t392" to="t388" to-position="3" resolved="yes">
+      <change idref="t392" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t392" attribute="internalPrerequisitesString" type="string" from="" to="391FS"/>
+      <change idref="t392" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t394" to="t393" to-position="0" resolved="yes">
+      <change idref="t394" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t394" attribute="internalPrerequisitesString" type="string" from="" to="392FS"/>
+      <change idref="t394" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t395" to="t393" to-position="1" resolved="yes">
+      <change idref="t395" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t395" attribute="internalPrerequisitesString" type="string" from="" to="394FS"/>
+      <change idref="t395" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t396" to="t393" to-position="2" resolved="yes">
+      <change idref="t396" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t396" attribute="internalPrerequisitesString" type="string" from="" to="395FS"/>
+      <change idref="t396" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t397" to="t393" to-position="3" resolved="yes">
+      <change idref="t397" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t397" attribute="internalPrerequisitesString" type="string" from="" to="396FS"/>
+      <change idref="t397" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t399" to="t398" to-position="0" resolved="yes">
+      <change idref="t399" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t399" attribute="internalPrerequisitesString" type="string" from="" to="397FS"/>
+      <change idref="t399" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t400" to="t398" to-position="1" resolved="yes">
+      <change idref="t400" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t400" attribute="internalPrerequisitesString" type="string" from="" to="399FS"/>
+      <change idref="t400" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t402" to="t401" to-position="0" resolved="yes">
+      <change idref="t402" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t402" attribute="internalPrerequisitesString" type="string" from="" to="400FS"/>
+      <change idref="t402" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t403" to="t401" to-position="1" resolved="yes">
+      <change idref="t403" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t403" attribute="internalPrerequisitesString" type="string" from="" to="402FS"/>
+      <change idref="t403" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t405" to="t404" to-position="0" resolved="yes">
+      <change idref="t405" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t405" attribute="internalPrerequisitesString" type="string" from="" to="403FS"/>
+      <change idref="t405" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t406" to="t404" to-position="1" resolved="yes">
+      <change idref="t406" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t406" attribute="internalPrerequisitesString" type="string" from="" to="405FS"/>
+      <change idref="t406" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t386" to="t407" to-position="0" resolved="yes">
+      <change idref="t386" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t387" to="t407" to-position="1" resolved="yes">
+      <change idref="t387" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t387" attribute="internalPrerequisitesString" type="string" from="" to="386FS"/>
+      <change idref="t387" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t388" to="t407" to-position="2" resolved="yes">
+      <change idref="t388" attribute="internalPrerequisitesString" type="string" from="" to="387FS"/>
+      <change idref="t388" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t388" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t388" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t393" to="t407" to-position="3" resolved="yes">
+      <change idref="t393" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t393" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t393" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t398" to="t407" to-position="4" resolved="yes">
+      <change idref="t398" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t398" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t398" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t401" to="t407" to-position="5" resolved="yes">
+      <change idref="t401" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t401" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t401" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t404" to="t407" to-position="6" resolved="yes">
+      <change idref="t404" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t404" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t404" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t411" to="t410" to-position="0" resolved="yes">
+      <change idref="t411" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t412" to="t410" to-position="1" resolved="yes">
+      <change idref="t412" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t412" attribute="internalPrerequisitesString" type="string" from="" to="411FS"/>
+      <change idref="t412" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t413" to="t410" to-position="2" resolved="yes">
+      <change idref="t413" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t413" attribute="internalPrerequisitesString" type="string" from="" to="412FS"/>
+      <change idref="t413" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t414" to="t410" to-position="3" resolved="yes">
+      <change idref="t414" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t414" attribute="internalPrerequisitesString" type="string" from="" to="413FS"/>
+      <change idref="t414" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t416" to="t415" to-position="0" resolved="yes">
+      <change idref="t416" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t416" attribute="internalPrerequisitesString" type="string" from="" to="414FS"/>
+      <change idref="t416" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t417" to="t415" to-position="1" resolved="yes">
+      <change idref="t417" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t417" attribute="internalPrerequisitesString" type="string" from="" to="416FS"/>
+      <change idref="t417" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t418" to="t415" to-position="2" resolved="yes">
+      <change idref="t418" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t418" attribute="internalPrerequisitesString" type="string" from="" to="417FS"/>
+      <change idref="t418" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t419" to="t415" to-position="3" resolved="yes">
+      <change idref="t419" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t419" attribute="internalPrerequisitesString" type="string" from="" to="418FS"/>
+      <change idref="t419" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t421" to="t420" to-position="0" resolved="yes">
+      <change idref="t421" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t421" attribute="internalPrerequisitesString" type="string" from="" to="419FS"/>
+      <change idref="t421" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t422" to="t420" to-position="1" resolved="yes">
+      <change idref="t422" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t422" attribute="internalPrerequisitesString" type="string" from="" to="421FS"/>
+      <change idref="t422" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t424" to="t423" to-position="0" resolved="yes">
+      <change idref="t424" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t424" attribute="internalPrerequisitesString" type="string" from="" to="422FS"/>
+      <change idref="t424" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t425" to="t423" to-position="1" resolved="yes">
+      <change idref="t425" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t425" attribute="internalPrerequisitesString" type="string" from="" to="424FS"/>
+      <change idref="t425" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t427" to="t426" to-position="0" resolved="yes">
+      <change idref="t427" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t427" attribute="internalPrerequisitesString" type="string" from="" to="425FS"/>
+      <change idref="t427" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t428" to="t426" to-position="1" resolved="yes">
+      <change idref="t428" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t428" attribute="internalPrerequisitesString" type="string" from="" to="427FS"/>
+      <change idref="t428" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t408" to="t429" to-position="0" resolved="yes">
+      <change idref="t408" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t409" to="t429" to-position="1" resolved="yes">
+      <change idref="t409" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t409" attribute="internalPrerequisitesString" type="string" from="" to="408FS"/>
+      <change idref="t409" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t410" to="t429" to-position="2" resolved="yes">
+      <change idref="t410" attribute="internalPrerequisitesString" type="string" from="" to="409FS"/>
+      <change idref="t410" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t410" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t410" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t415" to="t429" to-position="3" resolved="yes">
+      <change idref="t415" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t415" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t415" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t420" to="t429" to-position="4" resolved="yes">
+      <change idref="t420" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t420" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t420" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t423" to="t429" to-position="5" resolved="yes">
+      <change idref="t423" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t423" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t423" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t426" to="t429" to-position="6" resolved="yes">
+      <change idref="t426" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t426" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t426" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t433" to="t432" to-position="0" resolved="yes">
+      <change idref="t433" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t434" to="t432" to-position="1" resolved="yes">
+      <change idref="t434" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t434" attribute="internalPrerequisitesString" type="string" from="" to="433FS"/>
+      <change idref="t434" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t435" to="t432" to-position="2" resolved="yes">
+      <change idref="t435" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t435" attribute="internalPrerequisitesString" type="string" from="" to="434FS"/>
+      <change idref="t435" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t436" to="t432" to-position="3" resolved="yes">
+      <change idref="t436" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t436" attribute="internalPrerequisitesString" type="string" from="" to="435FS"/>
+      <change idref="t436" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t438" to="t437" to-position="0" resolved="yes">
+      <change idref="t438" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t438" attribute="internalPrerequisitesString" type="string" from="" to="436FS"/>
+      <change idref="t438" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t439" to="t437" to-position="1" resolved="yes">
+      <change idref="t439" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t439" attribute="internalPrerequisitesString" type="string" from="" to="438FS"/>
+      <change idref="t439" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t440" to="t437" to-position="2" resolved="yes">
+      <change idref="t440" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t440" attribute="internalPrerequisitesString" type="string" from="" to="439FS"/>
+      <change idref="t440" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t441" to="t437" to-position="3" resolved="yes">
+      <change idref="t441" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t441" attribute="internalPrerequisitesString" type="string" from="" to="440FS"/>
+      <change idref="t441" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t443" to="t442" to-position="0" resolved="yes">
+      <change idref="t443" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t443" attribute="internalPrerequisitesString" type="string" from="" to="441FS"/>
+      <change idref="t443" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t444" to="t442" to-position="1" resolved="yes">
+      <change idref="t444" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t444" attribute="internalPrerequisitesString" type="string" from="" to="443FS"/>
+      <change idref="t444" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t446" to="t445" to-position="0" resolved="yes">
+      <change idref="t446" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t446" attribute="internalPrerequisitesString" type="string" from="" to="444FS"/>
+      <change idref="t446" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t447" to="t445" to-position="1" resolved="yes">
+      <change idref="t447" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t447" attribute="internalPrerequisitesString" type="string" from="" to="446FS"/>
+      <change idref="t447" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t449" to="t448" to-position="0" resolved="yes">
+      <change idref="t449" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t449" attribute="internalPrerequisitesString" type="string" from="" to="447FS"/>
+      <change idref="t449" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t450" to="t448" to-position="1" resolved="yes">
+      <change idref="t450" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t450" attribute="internalPrerequisitesString" type="string" from="" to="449FS"/>
+      <change idref="t450" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t430" to="t451" to-position="0" resolved="yes">
+      <change idref="t430" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t431" to="t451" to-position="1" resolved="yes">
+      <change idref="t431" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t431" attribute="internalPrerequisitesString" type="string" from="" to="430FS"/>
+      <change idref="t431" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t432" to="t451" to-position="2" resolved="yes">
+      <change idref="t432" attribute="internalPrerequisitesString" type="string" from="" to="431FS"/>
+      <change idref="t432" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t432" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t432" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t437" to="t451" to-position="3" resolved="yes">
+      <change idref="t437" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t437" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t437" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t442" to="t451" to-position="4" resolved="yes">
+      <change idref="t442" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t442" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t442" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t445" to="t451" to-position="5" resolved="yes">
+      <change idref="t445" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t445" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t445" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t448" to="t451" to-position="6" resolved="yes">
+      <change idref="t448" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t448" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t448" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t455" to="t454" to-position="0" resolved="yes">
+      <change idref="t455" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t456" to="t454" to-position="1" resolved="yes">
+      <change idref="t456" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t456" attribute="internalPrerequisitesString" type="string" from="" to="455FS"/>
+      <change idref="t456" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t457" to="t454" to-position="2" resolved="yes">
+      <change idref="t457" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t457" attribute="internalPrerequisitesString" type="string" from="" to="456FS"/>
+      <change idref="t457" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t458" to="t454" to-position="3" resolved="yes">
+      <change idref="t458" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t458" attribute="internalPrerequisitesString" type="string" from="" to="457FS"/>
+      <change idref="t458" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t460" to="t459" to-position="0" resolved="yes">
+      <change idref="t460" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t460" attribute="internalPrerequisitesString" type="string" from="" to="458FS"/>
+      <change idref="t460" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t461" to="t459" to-position="1" resolved="yes">
+      <change idref="t461" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t461" attribute="internalPrerequisitesString" type="string" from="" to="460FS"/>
+      <change idref="t461" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t462" to="t459" to-position="2" resolved="yes">
+      <change idref="t462" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t462" attribute="internalPrerequisitesString" type="string" from="" to="461FS"/>
+      <change idref="t462" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t463" to="t459" to-position="3" resolved="yes">
+      <change idref="t463" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t463" attribute="internalPrerequisitesString" type="string" from="" to="462FS"/>
+      <change idref="t463" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t465" to="t464" to-position="0" resolved="yes">
+      <change idref="t465" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t465" attribute="internalPrerequisitesString" type="string" from="" to="463FS"/>
+      <change idref="t465" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t466" to="t464" to-position="1" resolved="yes">
+      <change idref="t466" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t466" attribute="internalPrerequisitesString" type="string" from="" to="465FS"/>
+      <change idref="t466" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t468" to="t467" to-position="0" resolved="yes">
+      <change idref="t468" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t468" attribute="internalPrerequisitesString" type="string" from="" to="466FS"/>
+      <change idref="t468" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t469" to="t467" to-position="1" resolved="yes">
+      <change idref="t469" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t469" attribute="internalPrerequisitesString" type="string" from="" to="468FS"/>
+      <change idref="t469" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t471" to="t470" to-position="0" resolved="yes">
+      <change idref="t471" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t471" attribute="internalPrerequisitesString" type="string" from="" to="469FS"/>
+      <change idref="t471" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t472" to="t470" to-position="1" resolved="yes">
+      <change idref="t472" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t472" attribute="internalPrerequisitesString" type="string" from="" to="471FS"/>
+      <change idref="t472" attribute="title" type="string" to="还书"/>
+    </change>
+    <change idref="t452" to="t473" to-position="0" resolved="yes">
+      <change idref="t452" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t453" to="t473" to-position="1" resolved="yes">
+      <change idref="t453" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t453" attribute="internalPrerequisitesString" type="string" from="" to="452FS"/>
+      <change idref="t453" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t454" to="t473" to-position="2" resolved="yes">
+      <change idref="t454" attribute="internalPrerequisitesString" type="string" from="" to="453FS"/>
+      <change idref="t454" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t454" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t454" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t459" to="t473" to-position="3" resolved="yes">
+      <change idref="t459" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t459" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t459" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t464" to="t473" to-position="4" resolved="yes">
+      <change idref="t464" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t464" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t464" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t467" to="t473" to-position="5" resolved="yes">
+      <change idref="t467" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t467" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t467" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t470" to="t473" to-position="6" resolved="yes">
+      <change idref="t470" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t470" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t470" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t477" to="t476" to-position="0" resolved="yes">
+      <change idref="t477" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t478" to="t476" to-position="1" resolved="yes">
+      <change idref="t478" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t478" attribute="internalPrerequisitesString" type="string" from="" to="477FS"/>
+      <change idref="t478" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t479" to="t476" to-position="2" resolved="yes">
+      <change idref="t479" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t479" attribute="internalPrerequisitesString" type="string" from="" to="478FS"/>
+      <change idref="t479" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t480" to="t476" to-position="3" resolved="yes">
+      <change idref="t480" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t480" attribute="internalPrerequisitesString" type="string" from="" to="479FS"/>
+      <change idref="t480" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t482" to="t481" to-position="0" resolved="yes">
+      <change idref="t482" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t482" attribute="internalPrerequisitesString" type="string" from="" to="480FS"/>
+      <change idref="t482" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t483" to="t481" to-position="1" resolved="yes">
+      <change idref="t483" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t483" attribute="internalPrerequisitesString" type="string" from="" to="482FS"/>
+      <change idref="t483" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t484" to="t481" to-position="2" resolved="yes">
+      <change idref="t484" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t484" attribute="internalPrerequisitesString" type="string" from="" to="483FS"/>
+      <change idref="t484" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t485" to="t481" to-position="3" resolved="yes">
+      <change idref="t485" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t485" attribute="internalPrerequisitesString" type="string" from="" to="484FS"/>
+      <change idref="t485" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t487" to="t486" to-position="0" resolved="yes">
+      <change idref="t487" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t487" attribute="internalPrerequisitesString" type="string" from="" to="485FS"/>
+      <change idref="t487" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t488" to="t486" to-position="1" resolved="yes">
+      <change idref="t488" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t488" attribute="internalPrerequisitesString" type="string" from="" to="487FS"/>
+      <change idref="t488" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t490" to="t489" to-position="0" resolved="yes">
+      <change idref="t490" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t490" attribute="internalPrerequisitesString" type="string" from="" to="488FS"/>
+      <change idref="t490" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t491" to="t489" to-position="1" resolved="yes">
+      <change idref="t491" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t491" attribute="internalPrerequisitesString" type="string" from="" to="490FS"/>
+      <change idref="t491" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t493" to="t492" to-position="0" resolved="yes">
+      <change idref="t493" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t493" attribute="internalPrerequisitesString" type="string" from="" to="491FS"/>
+      <change idref="t493" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t494" to="t492" to-position="1" resolved="yes">
+      <change idref="t494" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t494" attribute="internalPrerequisitesString" type="string" from="" to="493FS"/>
+      <change idref="t494" attribute="title" type="string" to="还书"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T00:35:30.966Z" timestamp="2022-10-25T00:35:30.966Z">
+    <change idref="t3" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t32" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t54" attribute="internalEffortDone" type="real" from="0" to="17280" resolved="yes"/>
+    <change idref="t76" attribute="internalEffortDone" type="real" from="0" to="17280" resolved="yes"/>
+    <change idref="t98" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t120" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t143" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t166" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t188" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t210" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t232" attribute="internalEffortDone" type="real" from="0" to="2880" resolved="yes"/>
+    <change idref="t254" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+    <change idref="t276" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t298" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t320" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t342" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t364" attribute="internalEffortDone" type="real" from="0" to="11520" resolved="yes"/>
+    <change idref="t386" attribute="internalEffortDone" type="real" from="0" to="23040" resolved="yes"/>
+    <change idref="t408" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t430" attribute="internalEffortDone" type="real" from="0" to="11520" resolved="yes"/>
+    <change idref="t452" attribute="internalEffortDone" type="real" from="0" to="10080" resolved="yes"/>
+    <change idref="t474" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T00:39:45.405Z" timestamp="2022-10-25T00:39:45.405Z">
+    <change idref="t-1" attribute="criticalPathProperties" type="dict" from="{&#10;    color =     {&#10;        b = &quot;0.5&quot;;&#10;        g = &quot;0.5&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;    enabled = 0;&#10;    root = &quot;-1&quot;;&#10;}" to="{&#10;    color =     {&#10;        b = &quot;0.5&quot;;&#10;        g = &quot;0.5&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;    enabled = 1;&#10;    root = &quot;-1&quot;;&#10;}" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T00:52:13.689Z" timestamp="2022-10-25T00:52:13.689Z">
+    <change idref="t517" to="t1" to-position="15" resolved="yes">
+      <change idref="t517" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t517" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t517" attribute="title" type="string" to="杨德楹"/>
+    </change>
+    <change idref="t496" to="t517" to-position="0" resolved="yes">
+      <change idref="t496" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+      <change idref="t496" attribute="title" type="string" to="用户注册"/>
+    </change>
+    <change idref="t497" to="t517" to-position="1" resolved="yes">
+      <change idref="t497" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t497" attribute="internalPrerequisitesString" type="string" from="" to="496FS"/>
+      <change idref="t497" attribute="title" type="string" to="登录、注销"/>
+    </change>
+    <change idref="t498" to="t517" to-position="2" resolved="yes">
+      <change idref="t498" attribute="internalPrerequisitesString" type="string" from="" to="497FS"/>
+      <change idref="t498" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t498" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t498" attribute="title" type="string" to="学生管理"/>
+    </change>
+    <change idref="t503" to="t517" to-position="3" resolved="yes">
+      <change idref="t503" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t503" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t503" attribute="title" type="string" to="图书管理"/>
+    </change>
+    <change idref="t508" to="t517" to-position="4" resolved="yes">
+      <change idref="t508" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t508" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t508" attribute="title" type="string" to="借阅记录"/>
+    </change>
+    <change idref="t511" to="t517" to-position="5" resolved="yes">
+      <change idref="t511" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t511" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t511" attribute="title" type="string" to="图书借阅"/>
+    </change>
+    <change idref="t514" to="t517" to-position="6" resolved="yes">
+      <change idref="t514" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t514" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t514" attribute="title" type="string" to="我的借阅"/>
+    </change>
+    <change idref="t499" to="t498" to-position="0" resolved="yes">
+      <change idref="t499" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t500" to="t498" to-position="1" resolved="yes">
+      <change idref="t500" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t500" attribute="internalPrerequisitesString" type="string" from="" to="499FS"/>
+      <change idref="t500" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t501" to="t498" to-position="2" resolved="yes">
+      <change idref="t501" attribute="effort" type="real" from="28800" to="8640"/>
+      <change idref="t501" attribute="internalPrerequisitesString" type="string" from="" to="500FS"/>
+      <change idref="t501" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t502" to="t498" to-position="3" resolved="yes">
+      <change idref="t502" attribute="effort" type="real" from="28800" to="11520"/>
+      <change idref="t502" attribute="internalPrerequisitesString" type="string" from="" to="501FS"/>
+      <change idref="t502" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t504" to="t503" to-position="0" resolved="yes">
+      <change idref="t504" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t504" attribute="internalPrerequisitesString" type="string" from="" to="502FS"/>
+      <change idref="t504" attribute="title" type="string" to="列表"/>
+    </change>
+    <change idref="t505" to="t503" to-position="1" resolved="yes">
+      <change idref="t505" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t505" attribute="internalPrerequisitesString" type="string" from="" to="504FS"/>
+      <change idref="t505" attribute="title" type="string" to="添加"/>
+    </change>
+    <change idref="t506" to="t503" to-position="2" resolved="yes">
+      <change idref="t506" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t506" attribute="internalPrerequisitesString" type="string" from="" to="505FS"/>
+      <change idref="t506" attribute="title" type="string" to="修改"/>
+    </change>
+    <change idref="t507" to="t503" to-position="3" resolved="yes">
+      <change idref="t507" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t507" attribute="internalPrerequisitesString" type="string" from="" to="506FS"/>
+      <change idref="t507" attribute="title" type="string" to="删除"/>
+    </change>
+    <change idref="t509" to="t508" to-position="0" resolved="yes">
+      <change idref="t509" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t509" attribute="internalPrerequisitesString" type="string" from="" to="507FS"/>
+      <change idref="t509" attribute="title" type="string" to="借阅图书列表"/>
+    </change>
+    <change idref="t510" to="t508" to-position="1" resolved="yes">
+      <change idref="t510" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t510" attribute="internalPrerequisitesString" type="string" from="" to="509FS"/>
+      <change idref="t510" attribute="title" type="string" to="查看借阅历史"/>
+    </change>
+    <change idref="t512" to="t511" to-position="0" resolved="yes">
+      <change idref="t512" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t512" attribute="internalPrerequisitesString" type="string" from="" to="510FS"/>
+      <change idref="t512" attribute="title" type="string" to="图书列表"/>
+    </change>
+    <change idref="t513" to="t511" to-position="1" resolved="yes">
+      <change idref="t513" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t513" attribute="internalPrerequisitesString" type="string" from="" to="512FS"/>
+      <change idref="t513" attribute="title" type="string" to="借阅"/>
+    </change>
+    <change idref="t515" to="t514" to-position="0" resolved="yes">
+      <change idref="t515" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t515" attribute="internalPrerequisitesString" type="string" from="" to="513FS"/>
+      <change idref="t515" attribute="title" type="string" to="借阅列表"/>
+    </change>
+    <change idref="t516" to="t514" to-position="1" resolved="yes">
+      <change idref="t516" attribute="effort" type="real" from="28800" to="14400"/>
+      <change idref="t516" attribute="internalPrerequisitesString" type="string" from="" to="515FS"/>
+      <change idref="t516" attribute="title" type="string" to="还书"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T01:04:04.616Z" timestamp="2022-10-25T01:04:04.616Z">
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t40" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t41" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t42" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t43" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t55" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t57" attribute="internalEffortDone" type="real" from="0" to="17280" resolved="yes"/>
+    <change idref="t77" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t79" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t99" attribute="internalEffortDone" type="real" from="0" to="10080" resolved="yes"/>
+    <change idref="t144" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t147" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t149" attribute="internalEffortDone" type="real" from="0" to="11520" resolved="yes"/>
+    <change idref="t167" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t169" attribute="internalEffortDone" type="real" from="0" to="17280" resolved="yes"/>
+    <change idref="t189" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t191" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t192" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t193" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t194" attribute="internalEffortDone" type="real" from="0" to="11520" resolved="yes"/>
+    <change idref="t196" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t197" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t198" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t199" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t211" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T01:26:36.650Z" timestamp="2022-10-25T01:26:36.650Z">
+    <change idref="t213" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t214" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t218" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t219" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t220" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t221" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t233" attribute="internalEffortDone" type="real" from="0" to="1440" resolved="yes"/>
+    <change idref="t257" attribute="internalEffortDone" type="real" from="0" to="2880" resolved="yes"/>
+    <change idref="t277" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t279" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t280" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t281" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t282" attribute="internalEffortDone" type="real" from="0" to="11520" resolved="yes"/>
+    <change idref="t284" attribute="internalEffortDone" type="real" from="0" to="7200" resolved="yes"/>
+    <change idref="t299" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t301" attribute="internalEffortDone" type="real" from="0" to="20160" resolved="yes"/>
+    <change idref="t302" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t321" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t323" attribute="internalEffortDone" type="real" from="0" to="20160" resolved="yes"/>
+    <change idref="t324" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t343" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t345" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t346" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t365" attribute="internalEffortDone" type="real" from="0" to="10080" resolved="yes"/>
+    <change idref="t387" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t409" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t431" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t433" attribute="internalEffortDone" type="real" from="0" to="20160" resolved="yes"/>
+    <change idref="t453" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t497" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+    <change idref="t499" attribute="internalEffortDone" type="real" from="0" to="28800" resolved="yes"/>
+    <change idref="t500" attribute="internalEffortDone" type="real" from="0" to="8640" resolved="yes"/>
+    <change idref="t504" attribute="internalEffortDone" type="real" from="0" to="14400" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="陈锐" date="2022-10-25T01:46:54.418Z" timestamp="2022-10-25T01:46:54.418Z">
+    <change idref="t141" from="t1" from-position="5" to="t1" to-position="22"/>
+    <change idref="t253" from="t1" from-position="9" to="t1" to-position="22"/>
+    <change idref="t275" from="t1" from-position="9" to="t1" to-position="22"/>
+  </task-change-set>
+  <resource-change-set user="陈锐" date="2022-10-24T01:25:55.060Z" timestamp="2022-10-24T01:25:55.060Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="陈锐" date="2022-10-24T01:41:53.883Z" timestamp="2022-10-24T01:41:53.883Z">
+    <change idref="r1" from="r-1" from-position="0" resolved="yes">
+      <change idref="r1" attribute="name" type="string" from="" to="Resource 1"/>
+    </change>
+  </resource-change-set>
+  <metadata-change-set user="陈锐" date="2022-10-24T01:25:55.060Z" timestamp="2022-10-24T01:25:55.060Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2022-10-24T00:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="¥1,234.56" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
