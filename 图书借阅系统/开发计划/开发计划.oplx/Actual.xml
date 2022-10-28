@@ -84,17 +84,17 @@
   <task id="t1">
     <title>图书借阅系统</title>
     <type>group</type>
-    <child-task idref="t31"/>
     <child-task idref="t53"/>
+    <child-task idref="t187"/>
+    <child-task idref="t209"/>
+    <child-task idref="t297"/>
+    <child-task idref="t164"/>
+    <child-task idref="t319"/>
+    <child-task idref="t31"/>
     <child-task idref="t75"/>
     <child-task idref="t97"/>
     <child-task idref="t119"/>
-    <child-task idref="t164"/>
-    <child-task idref="t187"/>
-    <child-task idref="t209"/>
     <child-task idref="t231"/>
-    <child-task idref="t297"/>
-    <child-task idref="t319"/>
     <child-task idref="t341"/>
     <child-task idref="t517"/>
     <child-task idref="t363"/>
@@ -131,20 +131,24 @@
   <task id="t6">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t7">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t6"/>
   </task>
   <task id="t8">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t7"/>
   </task>
   <task id="t9">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t8"/>
   </task>
   <task id="t10">
@@ -184,11 +188,13 @@
   <task id="t16">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t14"/>
   </task>
   <task id="t17">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t16"/>
   </task>
   <task id="t20">
@@ -200,11 +206,13 @@
   <task id="t21">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t17"/>
   </task>
   <task id="t22">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t21"/>
   </task>
   <task id="t23">
@@ -216,11 +224,13 @@
   <task id="t24">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t22"/>
   </task>
   <task id="t25">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t24"/>
   </task>
   <task id="t31">
@@ -242,6 +252,7 @@
   <task id="t33">
     <title>登录、注销</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t32"/>
   </task>
   <task id="t34">
@@ -256,20 +267,24 @@
   <task id="t35">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t36">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t35"/>
   </task>
   <task id="t37">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t36"/>
   </task>
   <task id="t38">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t37"/>
   </task>
   <task id="t39">
@@ -313,11 +328,13 @@
   <task id="t45">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t43"/>
   </task>
   <task id="t46">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t45"/>
   </task>
   <task id="t47">
@@ -329,11 +346,13 @@
   <task id="t48">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t46"/>
   </task>
   <task id="t49">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t48"/>
   </task>
   <task id="t50">
@@ -345,11 +364,13 @@
   <task id="t51">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t49"/>
   </task>
   <task id="t52">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t51"/>
   </task>
   <task id="t53">
@@ -362,11 +383,12 @@
     <child-task idref="t44"/>
     <child-task idref="t47"/>
     <child-task idref="t50"/>
+    <child-task idref="t518"/>
   </task>
   <task id="t54">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>17280</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t55">
     <title>登录、注销</title>
@@ -386,21 +408,24 @@
   <task id="t57">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>17280</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t58">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t57"/>
   </task>
   <task id="t59">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t58"/>
   </task>
   <task id="t60">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t59"/>
   </task>
   <task id="t61">
@@ -414,21 +439,25 @@
   <task id="t62">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t60"/>
   </task>
   <task id="t63">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t62"/>
   </task>
   <task id="t64">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t63"/>
   </task>
   <task id="t65">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t64"/>
   </task>
   <task id="t66">
@@ -493,7 +522,7 @@
   <task id="t76">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>17280</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t77">
     <title>登录、注销</title>
@@ -513,21 +542,24 @@
   <task id="t79">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t80">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t79"/>
   </task>
   <task id="t81">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t80"/>
   </task>
   <task id="t82">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t81"/>
   </task>
   <task id="t83">
@@ -541,21 +573,25 @@
   <task id="t84">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t82"/>
   </task>
   <task id="t85">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t84"/>
   </task>
   <task id="t86">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t85"/>
   </task>
   <task id="t87">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t86"/>
   </task>
   <task id="t88">
@@ -620,12 +656,12 @@
   <task id="t98">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t99">
     <title>登录、注销</title>
     <effort>14400</effort>
-    <effort-done>10080</effort-done>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t98"/>
   </task>
   <task id="t100">
@@ -640,20 +676,24 @@
   <task id="t101">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t102">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t101"/>
   </task>
   <task id="t103">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t102"/>
   </task>
   <task id="t104">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>6912</effort-done>
     <prerequisite-task idref="t103"/>
   </task>
   <task id="t105">
@@ -667,16 +707,19 @@
   <task id="t106">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t104"/>
   </task>
   <task id="t107">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t106"/>
   </task>
   <task id="t108">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t107"/>
   </task>
   <task id="t109">
@@ -871,7 +914,7 @@
   <task id="t143">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>28800</effort-done>
+    <effort-done>23040</effort-done>
   </task>
   <task id="t144">
     <title>登录、注销</title>
@@ -891,6 +934,7 @@
   <task id="t146">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t147">
     <title>添加</title>
@@ -901,6 +945,7 @@
   <task id="t148">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t147"/>
   </task>
   <task id="t149">
@@ -920,21 +965,25 @@
   <task id="t151">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t149"/>
   </task>
   <task id="t152">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t151"/>
   </task>
   <task id="t153">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t152"/>
   </task>
   <task id="t154">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t153"/>
   </task>
   <task id="t155">
@@ -946,11 +995,13 @@
   <task id="t156">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t154"/>
   </task>
   <task id="t157">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t156"/>
   </task>
   <task id="t158">
@@ -962,11 +1013,13 @@
   <task id="t159">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t157"/>
   </task>
   <task id="t160">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t159"/>
   </task>
   <task id="t161">
@@ -978,11 +1031,13 @@
   <task id="t162">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t160"/>
   </task>
   <task id="t163">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t162"/>
   </task>
   <task id="t164">
@@ -1019,21 +1074,24 @@
   <task id="t169">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>17280</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t170">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t169"/>
   </task>
   <task id="t171">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t170"/>
   </task>
   <task id="t172">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t171"/>
   </task>
   <task id="t173">
@@ -1047,21 +1105,25 @@
   <task id="t174">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t172"/>
   </task>
   <task id="t175">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t174"/>
   </task>
   <task id="t176">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t175"/>
   </task>
   <task id="t177">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t176"/>
   </task>
   <task id="t178">
@@ -1073,11 +1135,13 @@
   <task id="t179">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t177"/>
   </task>
   <task id="t180">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t179"/>
   </task>
   <task id="t181">
@@ -1089,11 +1153,13 @@
   <task id="t182">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t180"/>
   </task>
   <task id="t183">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t182"/>
   </task>
   <task id="t184">
@@ -1105,11 +1171,13 @@
   <task id="t185">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t183"/>
   </task>
   <task id="t186">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t185"/>
   </task>
   <task id="t187">
@@ -1122,6 +1190,7 @@
     <child-task idref="t178"/>
     <child-task idref="t181"/>
     <child-task idref="t184"/>
+    <child-task idref="t521"/>
   </task>
   <task id="t188">
     <title>用户注册</title>
@@ -1207,11 +1276,13 @@
   <task id="t201">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t199"/>
   </task>
   <task id="t202">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t201"/>
   </task>
   <task id="t203">
@@ -1223,11 +1294,13 @@
   <task id="t204">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t202"/>
   </task>
   <task id="t205">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t204"/>
   </task>
   <task id="t206">
@@ -1239,11 +1312,13 @@
   <task id="t207">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t205"/>
   </task>
   <task id="t208">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t207"/>
   </task>
   <task id="t209">
@@ -1256,16 +1331,17 @@
     <child-task idref="t200"/>
     <child-task idref="t203"/>
     <child-task idref="t206"/>
+    <child-task idref="t524"/>
   </task>
   <task id="t210">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t211">
     <title>登录、注销</title>
     <effort>14400</effort>
-    <effort-done>7200</effort-done>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t210"/>
   </task>
   <task id="t212">
@@ -1291,11 +1367,13 @@
   <task id="t215">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t214"/>
   </task>
   <task id="t216">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t215"/>
   </task>
   <task id="t217">
@@ -1339,11 +1417,13 @@
   <task id="t223">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t221"/>
   </task>
   <task id="t224">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t223"/>
   </task>
   <task id="t225">
@@ -1355,11 +1435,13 @@
   <task id="t226">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t224"/>
   </task>
   <task id="t227">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t226"/>
   </task>
   <task id="t228">
@@ -1695,22 +1777,25 @@
   <task id="t284">
     <title>列表</title>
     <effort>14400</effort>
-    <effort-done>7200</effort-done>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t282"/>
   </task>
   <task id="t285">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t284"/>
   </task>
   <task id="t286">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t285"/>
   </task>
   <task id="t287">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t286"/>
   </task>
   <task id="t288">
@@ -1722,11 +1807,13 @@
   <task id="t289">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t287"/>
   </task>
   <task id="t290">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t289"/>
   </task>
   <task id="t291">
@@ -1738,11 +1825,13 @@
   <task id="t292">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t290"/>
   </task>
   <task id="t293">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t292"/>
   </task>
   <task id="t294">
@@ -1754,11 +1843,13 @@
   <task id="t295">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t293"/>
   </task>
   <task id="t296">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t295"/>
   </task>
   <task id="t297">
@@ -1771,11 +1862,12 @@
     <child-task idref="t288"/>
     <child-task idref="t291"/>
     <child-task idref="t294"/>
+    <child-task idref="t527"/>
   </task>
   <task id="t298">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>28800</effort-done>
+    <effort-done>23040</effort-done>
   </task>
   <task id="t299">
     <title>登录、注销</title>
@@ -1795,7 +1887,7 @@
   <task id="t301">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>20160</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t302">
     <title>添加</title>
@@ -1806,11 +1898,13 @@
   <task id="t303">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t302"/>
   </task>
   <task id="t304">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t303"/>
   </task>
   <task id="t305">
@@ -1824,21 +1918,25 @@
   <task id="t306">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t304"/>
   </task>
   <task id="t307">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t306"/>
   </task>
   <task id="t308">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t307"/>
   </task>
   <task id="t309">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t308"/>
   </task>
   <task id="t310">
@@ -1850,11 +1948,13 @@
   <task id="t311">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t309"/>
   </task>
   <task id="t312">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t311"/>
   </task>
   <task id="t313">
@@ -1866,11 +1966,13 @@
   <task id="t314">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t312"/>
   </task>
   <task id="t315">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t314"/>
   </task>
   <task id="t316">
@@ -1882,11 +1984,13 @@
   <task id="t317">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t315"/>
   </task>
   <task id="t318">
     <title>还书</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t317"/>
   </task>
   <task id="t319">
@@ -1923,7 +2027,7 @@
   <task id="t323">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>20160</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t324">
     <title>添加</title>
@@ -1934,11 +2038,13 @@
   <task id="t325">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t324"/>
   </task>
   <task id="t326">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>5760</effort-done>
     <prerequisite-task idref="t325"/>
   </task>
   <task id="t327">
@@ -1952,16 +2058,19 @@
   <task id="t328">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t326"/>
   </task>
   <task id="t329">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t328"/>
   </task>
   <task id="t330">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t329"/>
   </task>
   <task id="t331">
@@ -1978,11 +2087,13 @@
   <task id="t333">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t331"/>
   </task>
   <task id="t334">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t333"/>
   </task>
   <task id="t335">
@@ -1994,6 +2105,7 @@
   <task id="t336">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t334"/>
   </task>
   <task id="t337">
@@ -2031,7 +2143,7 @@
   <task id="t342">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t343">
     <title>登录、注销</title>
@@ -2062,11 +2174,13 @@
   <task id="t347">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t346"/>
   </task>
   <task id="t348">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t347"/>
   </task>
   <task id="t349">
@@ -2080,6 +2194,7 @@
   <task id="t350">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>7200</effort-done>
     <prerequisite-task idref="t348"/>
   </task>
   <task id="t351">
@@ -2159,12 +2274,12 @@
   <task id="t364">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>11520</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t365">
     <title>登录、注销</title>
     <effort>14400</effort>
-    <effort-done>10080</effort-done>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t364"/>
   </task>
   <task id="t366">
@@ -2179,20 +2294,24 @@
   <task id="t367">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t368">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t367"/>
   </task>
   <task id="t369">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t368"/>
   </task>
   <task id="t370">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t369"/>
   </task>
   <task id="t371">
@@ -2206,16 +2325,19 @@
   <task id="t372">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t370"/>
   </task>
   <task id="t373">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t372"/>
   </task>
   <task id="t374">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t373"/>
   </task>
   <task id="t375">
@@ -2285,7 +2407,7 @@
   <task id="t386">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>23040</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t387">
     <title>登录、注销</title>
@@ -2305,20 +2427,24 @@
   <task id="t389">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t390">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t389"/>
   </task>
   <task id="t391">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t390"/>
   </task>
   <task id="t392">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t391"/>
   </task>
   <task id="t393">
@@ -2332,21 +2458,26 @@
   <task id="t394">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t392"/>
   </task>
   <task id="t395">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t394"/>
   </task>
   <task id="t396">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t395"/>
   </task>
   <task id="t397">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
+    <locked-end-date>2022-10-31T04:00:00.000Z</locked-end-date>
     <prerequisite-task idref="t396"/>
   </task>
   <task id="t398">
@@ -2411,7 +2542,7 @@
   <task id="t408">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>14400</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t409">
     <title>登录、注销</title>
@@ -2431,20 +2562,24 @@
   <task id="t411">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t412">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t411"/>
   </task>
   <task id="t413">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t412"/>
   </task>
   <task id="t414">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t413"/>
   </task>
   <task id="t415">
@@ -2458,16 +2593,19 @@
   <task id="t416">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t414"/>
   </task>
   <task id="t417">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t416"/>
   </task>
   <task id="t418">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t417"/>
   </task>
   <task id="t419">
@@ -2537,7 +2675,7 @@
   <task id="t430">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>11520</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t431">
     <title>登录、注销</title>
@@ -2557,11 +2695,12 @@
   <task id="t433">
     <title>列表</title>
     <effort>28800</effort>
-    <effort-done>20160</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t434">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t433"/>
   </task>
   <task id="t435">
@@ -2585,6 +2724,7 @@
   <task id="t438">
     <title>列表</title>
     <effort>14400</effort>
+    <effort-done>4320</effort-done>
     <prerequisite-task idref="t436"/>
   </task>
   <task id="t439">
@@ -2664,7 +2804,7 @@
   <task id="t452">
     <title>用户注册</title>
     <effort>28800</effort>
-    <effort-done>10080</effort-done>
+    <effort-done>28800</effort-done>
   </task>
   <task id="t453">
     <title>登录、注销</title>
@@ -2684,20 +2824,24 @@
   <task id="t455">
     <title>列表</title>
     <effort>28800</effort>
+    <effort-done>23040</effort-done>
   </task>
   <task id="t456">
     <title>添加</title>
     <effort>8640</effort>
+    <effort-done>6480</effort-done>
     <prerequisite-task idref="t455"/>
   </task>
   <task id="t457">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>6480</effort-done>
     <prerequisite-task idref="t456"/>
   </task>
   <task id="t458">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>4608</effort-done>
     <prerequisite-task idref="t457"/>
   </task>
   <task id="t459">
@@ -2946,11 +3090,13 @@
   <task id="t501">
     <title>修改</title>
     <effort>8640</effort>
+    <effort-done>8640</effort-done>
     <prerequisite-task idref="t500"/>
   </task>
   <task id="t502">
     <title>删除</title>
     <effort>11520</effort>
+    <effort-done>11520</effort-done>
     <prerequisite-task idref="t501"/>
   </task>
   <task id="t503">
@@ -2970,16 +3116,19 @@
   <task id="t505">
     <title>添加</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t504"/>
   </task>
   <task id="t506">
     <title>修改</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t505"/>
   </task>
   <task id="t507">
     <title>删除</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t506"/>
   </task>
   <task id="t508">
@@ -2991,11 +3140,13 @@
   <task id="t509">
     <title>借阅图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t507"/>
   </task>
   <task id="t510">
     <title>查看借阅历史</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t509"/>
   </task>
   <task id="t511">
@@ -3007,11 +3158,13 @@
   <task id="t512">
     <title>图书列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t510"/>
   </task>
   <task id="t513">
     <title>借阅</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t512"/>
   </task>
   <task id="t514">
@@ -3023,6 +3176,7 @@
   <task id="t515">
     <title>借阅列表</title>
     <effort>14400</effort>
+    <effort-done>14400</effort-done>
     <prerequisite-task idref="t513"/>
   </task>
   <task id="t516">
@@ -3040,6 +3194,71 @@
     <child-task idref="t508"/>
     <child-task idref="t511"/>
     <child-task idref="t514"/>
+  </task>
+  <task id="t518">
+    <title>测试</title>
+    <type>group</type>
+    <child-task idref="t519"/>
+    <child-task idref="t520"/>
+  </task>
+  <task id="t519">
+    <title>测试用例</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t52"/>
+  </task>
+  <task id="t520">
+    <title>测试</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t519"/>
+  </task>
+  <task id="t521">
+    <title>测试</title>
+    <type>group</type>
+    <child-task idref="t522"/>
+    <child-task idref="t523"/>
+    <prerequisite-task idref="t186"/>
+  </task>
+  <task id="t522">
+    <title>测试用例</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t186"/>
+  </task>
+  <task id="t523">
+    <title>测试</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t522"/>
+  </task>
+  <task id="t524">
+    <title>测试</title>
+    <type>group</type>
+    <child-task idref="t525"/>
+    <child-task idref="t526"/>
+  </task>
+  <task id="t525">
+    <title>测试用例</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t208"/>
+  </task>
+  <task id="t526">
+    <title>测试</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t525"/>
+  </task>
+  <task id="t527">
+    <title>测试</title>
+    <type>group</type>
+    <child-task idref="t528"/>
+    <child-task idref="t529"/>
+  </task>
+  <task id="t528">
+    <title>测试用例</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t296"/>
+  </task>
+  <task id="t529">
+    <title>测试</title>
+    <effort>28800</effort>
+    <prerequisite-task idref="t528"/>
   </task>
   <critical-path root="-1" enabled="true" resources="false">
     <color space="srgb" r="1" g="0.5" b="0.5"/>
